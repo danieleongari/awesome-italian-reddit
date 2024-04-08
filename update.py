@@ -1,6 +1,5 @@
 import pandas as pd
 import requests
-from tqdm import tqdm
 
 CUT_DESCRIPTION = 50
 
@@ -16,7 +15,9 @@ df = pd.read_csv("subreddits.csv").assign(
     created_utc=(lambda x: pd.to_datetime(x["created_utc"]))
 )
 
-for i, row in tqdm(df.iterrows(), total=len(df)):
+for i, row in df.iterrows():
+    print(i, row["name"])
+
     data = get_json(row["name"])
 
     if "data" not in data:
@@ -34,7 +35,7 @@ for i, row in tqdm(df.iterrows(), total=len(df)):
             :CUT_DESCRIPTION
         ].replace("\n", " ")
 
-    df.to_csv("subreddits.csv", index=False)
+df.to_csv("subreddits.csv", index=False)
 
 
 # Now generate a markdown table with the information and save it as README.md
