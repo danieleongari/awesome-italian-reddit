@@ -3,6 +3,7 @@ name: Update README
 on:
   schedule:
     - cron: '0 0 * * *'  # This will run the workflow every day at midnight
+  workflow_dispatch:  # This allows the workflow to be run manually
 
 jobs:
   update:
