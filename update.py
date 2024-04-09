@@ -1,15 +1,13 @@
 import pandas as pd
 import requests
+from fake_useragent import UserAgent
 
 CUT_DESCRIPTION = 50
 
 
 def get_json(subreddit, verbose=False):
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
-    headers = {
-        "User-agent": "danieleongari-UpdateScript"
-    }
-    response = requests.get(url, headers=headers)
+    response = requests.get(url, headers={"User-Agent": UserAgent().random})
     if verbose:
         print(f"Status code: {response.status_code}")
         print(f"Response content: {response.content}")
