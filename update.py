@@ -7,7 +7,7 @@ CUT_DESCRIPTION = 50
 def get_json(subreddit, verbose=False):
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
     headers = {
-        "User-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
+        "User-agent": "danieleongari-UpdateScript"
     }
     response = requests.get(url, headers=headers)
     if verbose:
