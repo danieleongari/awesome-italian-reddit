@@ -4,12 +4,15 @@ import requests
 CUT_DESCRIPTION = 50
 
 
-def get_json(subreddit):
+def get_json(subreddit, verbose=False):
     url = f"https://www.reddit.com/r/{subreddit}/about.json"
     headers = {
         "User-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36"
     }
     response = requests.get(url, headers=headers)
+    if verbose:
+        print(f"Status code: {response.status_code}")
+        print(f"Response content: {response.content}")
     return response.json()
 
 
@@ -20,7 +23,7 @@ df = pd.read_csv("subreddits.csv").assign(
 for i, row in df.iterrows():
     print(i, row["name"])
 
-    data = get_json(row["name"])
+    data = get_json(row["name"], verbose=True)
 
     if "data" not in data:
         df.loc[i, "reason"] = data["reason"]
