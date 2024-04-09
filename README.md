@@ -5,34 +5,34 @@ Updated with `python update.py` on 2024-04-09.
 
 | Name | Subscribers | Date Creation | Stats | Description |
 |------|-------------|---------------|-------|-------------|
-| [r/italy](https://www.reddit.com/r/italy/) | 854997 | 2008-07-25 | [stats](https://subredditstats.com/r/italy)| &gt;[All](https://reddit.com/r/italy "Every thread |
-| [r/memesITA](https://www.reddit.com/r/memesITA/) | 432396 | 2019-09-21 | [stats](https://subredditstats.com/r/memesITA)| Pizza, Pasta &amp; Memes |
+| [r/italy](https://www.reddit.com/r/italy/) | 855004 | 2008-07-25 | [stats](https://subredditstats.com/r/italy)| &gt;[All](https://reddit.com/r/italy "Every thread |
+| [r/memesITA](https://www.reddit.com/r/memesITA/) | 432399 | 2019-09-21 | [stats](https://subredditstats.com/r/memesITA)| Pizza, Pasta &amp; Memes |
 | [r/Italia](https://www.reddit.com/r/Italia/) | 223254 | 2009-11-03 | [stats](https://subredditstats.com/r/Italia)| L'Italia su reddit  Leggi [il wiki](https://www.re |
-| [r/ItalyInformatica](https://www.reddit.com/r/ItalyInformatica/) | 123930 | 2016-08-22 | [stats](https://subredditstats.com/r/ItalyInformatica)| **Benvenuti su [ItalyInformatica](/r/ItalyInformat |
-| [r/ItaliaPersonalFinance](https://www.reddit.com/r/ItaliaPersonalFinance/) | 116783 | 2017-01-27 | [stats](https://subredditstats.com/r/ItaliaPersonalFinance)| Tutti i consigli che vengono dati in questo subred |
+| [r/ItalyInformatica](https://www.reddit.com/r/ItalyInformatica/) | 123933 | 2016-08-22 | [stats](https://subredditstats.com/r/ItalyInformatica)| **Benvenuti su [ItalyInformatica](/r/ItalyInformat |
+| [r/ItaliaPersonalFinance](https://www.reddit.com/r/ItaliaPersonalFinance/) | 116786 | 2017-01-27 | [stats](https://subredditstats.com/r/ItaliaPersonalFinance)| Tutti i consigli che vengono dati in questo subred |
 | [r/Napoli](https://www.reddit.com/r/Napoli/) | 100600 | 2011-08-17 | [stats](https://subredditstats.com/r/Napoli)| # aaa  # aaa |
-| [r/MemeItaliani](https://www.reddit.com/r/MemeItaliani/) | 98863 | 2020-01-02 | [stats](https://subredditstats.com/r/MemeItaliani)| Per gli italiani su Reddit a cui piacciono i meme |
-| [r/italianlearning](https://www.reddit.com/r/italianlearning/) | 95961 | 2012-04-06 | [stats](https://subredditstats.com/r/italianlearning)| #[](#h1-grey) &gt; ##[BENVENUTI in /r/italianlearn |
+| [r/MemeItaliani](https://www.reddit.com/r/MemeItaliani/) | 98864 | 2020-01-02 | [stats](https://subredditstats.com/r/MemeItaliani)| Per gli italiani su Reddit a cui piacciono i meme |
+| [r/italianlearning](https://www.reddit.com/r/italianlearning/) | 95964 | 2012-04-06 | [stats](https://subredditstats.com/r/italianlearning)| #[](#h1-grey) &gt; ##[BENVENUTI in /r/italianlearn |
 | [r/Rome](https://www.reddit.com/r/Rome/) | 81950 | 2010-04-22 | [stats](https://subredditstats.com/r/Rome)| Welcome to the subreddit for Rome, Italy! Feel fre |
-| [r/ITAGLIA](https://www.reddit.com/r/ITAGLIA/) | 79505 | 2014-01-13 | [stats](https://subredditstats.com/r/ITAGLIA)| [Questo sub fa parte di /r/ItalyNetwork](/r/italyn |
+| [r/ITAGLIA](https://www.reddit.com/r/ITAGLIA/) | 79508 | 2014-01-13 | [stats](https://subredditstats.com/r/ITAGLIA)| [Questo sub fa parte di /r/ItalyNetwork](/r/italyn |
 | [r/Milano](https://www.reddit.com/r/Milano/) | 70498 | 2009-06-22 | [stats](https://subredditstats.com/r/Milano)| The purpose of the sub is to post interesting link |
 | [r/Torino](https://www.reddit.com/r/Torino/) | 64932 | 2011-10-24 | [stats](https://subredditstats.com/r/Torino)| Everything you need to know about Turin: info, new |
 | [r/Bologna](https://www.reddit.com/r/Bologna/) | 60310 | 2012-02-26 | [stats](https://subredditstats.com/r/Bologna)| La Dotta, La Grassa, La rossa: Bologna. The city i |
-| [r/askitaly](https://www.reddit.com/r/askitaly/) | 59428 | 2014-04-14 | [stats](https://subredditstats.com/r/askitaly)| Hi!  Are you planning a trip to Italy, or are you  |
+| [r/askitaly](https://www.reddit.com/r/askitaly/) | 59429 | 2014-04-14 | [stats](https://subredditstats.com/r/askitaly)| Hi!  Are you planning a trip to Italy, or are you  |
 | [r/rimesegate](https://www.reddit.com/r/rimesegate/) | 51461 | 2019-05-03 | [stats](https://subredditstats.com/r/rimesegate)| subreddit ufficiale della community di rimesegate! |
-| [r/ItalyMotori](https://www.reddit.com/r/ItalyMotori/) | 49886 | 2016-02-23 | [stats](https://subredditstats.com/r/ItalyMotori)| # _  * Filtra per categoria ▾     * [AskIM](/r/Ita |
-| [r/DarioMocciaTwitch](https://www.reddit.com/r/DarioMocciaTwitch/) | 46654 | 2020-03-09 | [stats](https://subredditstats.com/r/DarioMocciaTwitch)| Il posto dove i meme di Dario Moccia vanno a morir |
+| [r/ItalyMotori](https://www.reddit.com/r/ItalyMotori/) | 49890 | 2016-02-23 | [stats](https://subredditstats.com/r/ItalyMotori)| # _  * Filtra per categoria ▾     * [AskIM](/r/Ita |
+| [r/DarioMocciaTwitch](https://www.reddit.com/r/DarioMocciaTwitch/) | 46655 | 2020-03-09 | [stats](https://subredditstats.com/r/DarioMocciaTwitch)| Il posto dove i meme di Dario Moccia vanno a morir |
 | [r/Venezia](https://www.reddit.com/r/Venezia/) | 43206 | 2011-10-28 | [stats](https://subredditstats.com/r/Venezia)| **Tutto quanto riguarda Venezia**  **Everything re |
 | [r/Libri](https://www.reddit.com/r/Libri/) | 37529 | 2013-05-29 | [stats](https://subredditstats.com/r/Libri)| ----- * **Hai letto un libro e ti è piaciuto?** *  |
 | [r/commercialisti](https://www.reddit.com/r/commercialisti/) | 32735 | 2017-05-11 | [stats](https://subredditstats.com/r/commercialisti)| Subreddit che vorrebbe essere serio ma non ce la f |
 | [r/Roma](https://www.reddit.com/r/Roma/) | 32480 | 2011-10-24 | [stats](https://subredditstats.com/r/Roma)| Italiani! Romani! Troviamoci su questo gruppo per  |
-| [r/Italian](https://www.reddit.com/r/Italian/) | 26051 | 2010-05-04 | [stats](https://subredditstats.com/r/Italian)| No particular rule, follow the Reddit guidelines a |
+| [r/Italian](https://www.reddit.com/r/Italian/) | 26050 | 2010-05-04 | [stats](https://subredditstats.com/r/Italian)| No particular rule, follow the Reddit guidelines a |
 | [r/ItalyPhotos](https://www.reddit.com/r/ItalyPhotos/) | 14414 | 2014-10-27 | [stats](https://subredditstats.com/r/ItalyPhotos)| **Benvenuti in /r/ItalyPhotos, a subreddit dedicat |
 | [r/TeenagersITA](https://www.reddit.com/r/TeenagersITA/) | 13799 | 2020-10-08 | [stats](https://subredditstats.com/r/TeenagersITA)| Per maggiori informazioni sulla comunità consultar |
 | [r/politicaITA](https://www.reddit.com/r/politicaITA/) | 10032 | 2014-01-26 | [stats](https://subredditstats.com/r/politicaITA)| **Due spettri si aggirano per il pianeta: gli spet |
 | [r/Firenze](https://www.reddit.com/r/Firenze/) | 8572 | 2012-01-30 | [stats](https://subredditstats.com/r/Firenze)| ######[Home](http://www.reddit.com#top) [hott'e](h |
 | [r/MemeTemplatesIta](https://www.reddit.com/r/MemeTemplatesIta/) | 5422 | 2020-07-04 | [stats](https://subredditstats.com/r/MemeTemplatesIta)| ... |
-| [r/Trieste](https://www.reddit.com/r/Trieste/) | 5239 | 2013-02-27 | [stats](https://subredditstats.com/r/Trieste)| Trieste (/triːˈɛst/; Italian pronunciation: [triˈɛ |
+| [r/Trieste](https://www.reddit.com/r/Trieste/) | 5240 | 2013-02-27 | [stats](https://subredditstats.com/r/Trieste)| Trieste (/triːˈɛst/; Italian pronunciation: [triˈɛ |
 | [r/OnePiece_it](https://www.reddit.com/r/OnePiece_it/) | 3628 | 2018-05-17 | [stats](https://subredditstats.com/r/OnePiece_it)|  |
 | [r/italianmusic](https://www.reddit.com/r/italianmusic/) | 2867 | 2013-01-10 | [stats](https://subredditstats.com/r/italianmusic)| **All you Italian music lovers out there, submit a |
 | [r/Lazio](https://www.reddit.com/r/Lazio/) | 2854 | 2012-03-05 | [stats](https://subredditstats.com/r/Lazio)| A subreddit dedicated to the   S.S. Lazio ===  Off |

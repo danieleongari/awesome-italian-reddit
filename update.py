@@ -21,7 +21,7 @@ df = pd.read_csv("subreddits.csv").assign(
 for i, row in df.iterrows():
     print(i, row["name"])
 
-    data = get_json(row["name"], verbose=True)
+    data = get_json(row["name"], verbose=False)
 
     if "data" not in data:
         df.loc[i, "reason"] = data["reason"]
