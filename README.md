@@ -5,33 +5,34 @@ Updated with `python update.py` on 2024-04-11.
 
 | Name | Subscribers | Date Creation | Description | Stats |
 |------|-------------|---------------|-------------|-------|
-| [r/italy](https://www.reddit.com/r/italy/) | 857005 | 2008-07-25 | &gt;[All](https://reddit.com/r/italy "Every thread | [stats](https://subredditstats.com/r/italy) |
-| [r/memesITA](https://www.reddit.com/r/memesITA/) | 432941 | 2019-09-21 | Pizza, Pasta &amp; Memes | [stats](https://subredditstats.com/r/memesITA) |
-| [r/Italia](https://www.reddit.com/r/Italia/) | 223545 | 2009-11-03 | L'Italia su reddit  Leggi [il wiki](https://www.re | [stats](https://subredditstats.com/r/Italia) |
-| [r/ItalyInformatica](https://www.reddit.com/r/ItalyInformatica/) | 124205 | 2016-08-22 | **Benvenuti su [ItalyInformatica](/r/ItalyInformat | [stats](https://subredditstats.com/r/ItalyInformatica) |
+| [r/italy](https://www.reddit.com/r/italy/) | 857013 | 2008-07-25 | &gt;[All](https://reddit.com/r/italy "Every thread | [stats](https://subredditstats.com/r/italy) |
+| [r/memesITA](https://www.reddit.com/r/memesITA/) | 432945 | 2019-09-21 | Pizza, Pasta &amp; Memes | [stats](https://subredditstats.com/r/memesITA) |
+| [r/Italia](https://www.reddit.com/r/Italia/) | 223546 | 2009-11-03 | L'Italia su reddit  Leggi [il wiki](https://www.re | [stats](https://subredditstats.com/r/Italia) |
+| [r/ItalyInformatica](https://www.reddit.com/r/ItalyInformatica/) | 124207 | 2016-08-22 | **Benvenuti su [ItalyInformatica](/r/ItalyInformat | [stats](https://subredditstats.com/r/ItalyInformatica) |
 | [r/ItaliaPersonalFinance](https://www.reddit.com/r/ItaliaPersonalFinance/) | 117203 | 2017-01-27 | Tutti i consigli che vengono dati in questo subred | [stats](https://subredditstats.com/r/ItaliaPersonalFinance) |
 | [r/Napoli](https://www.reddit.com/r/Napoli/) | 100763 | 2011-08-17 | # aaa  # aaa | [stats](https://subredditstats.com/r/Napoli) |
 | [r/MemeItaliani](https://www.reddit.com/r/MemeItaliani/) | 98909 | 2020-01-02 | Per gli italiani su Reddit a cui piacciono i meme | [stats](https://subredditstats.com/r/MemeItaliani) |
 | [r/italianlearning](https://www.reddit.com/r/italianlearning/) | 96129 | 2012-04-06 | #[](#h1-grey) &gt; ##[BENVENUTI in /r/italianlearn | [stats](https://subredditstats.com/r/italianlearning) |
-| [r/Rome](https://www.reddit.com/r/Rome/) | 82192 | 2010-04-22 | Welcome to the subreddit for Rome, Italy! Feel fre | [stats](https://subredditstats.com/r/Rome) |
-| [r/ITAGLIA](https://www.reddit.com/r/ITAGLIA/) | 79919 | 2014-01-13 | [Questo sub fa parte di /r/ItalyNetwork](/r/italyn | [stats](https://subredditstats.com/r/ITAGLIA) |
-| [r/ItalianFood](https://www.reddit.com/r/ItalianFood/) | 77015 | 2012-07-05 | r/ItalianFood Rules  *1.Italian Food only!*  This  | [stats](https://subredditstats.com/r/ItalianFood) |
-| [r/Milano](https://www.reddit.com/r/Milano/) | 70676 | 2009-06-22 | The purpose of the sub is to post interesting link | [stats](https://subredditstats.com/r/Milano) |
+| [r/Rome](https://www.reddit.com/r/Rome/) | 82194 | 2010-04-22 | Welcome to the subreddit for Rome, Italy! Feel fre | [stats](https://subredditstats.com/r/Rome) |
+| [r/ITAGLIA](https://www.reddit.com/r/ITAGLIA/) | 79923 | 2014-01-13 | [Questo sub fa parte di /r/ItalyNetwork](/r/italyn | [stats](https://subredditstats.com/r/ITAGLIA) |
+| [r/ItalianFood](https://www.reddit.com/r/ItalianFood/) | 77016 | 2012-07-05 | r/ItalianFood Rules  *1.Italian Food only!*  This  | [stats](https://subredditstats.com/r/ItalianFood) |
+| [r/Milano](https://www.reddit.com/r/Milano/) | 70678 | 2009-06-22 | The purpose of the sub is to post interesting link | [stats](https://subredditstats.com/r/Milano) |
 | [r/Torino](https://www.reddit.com/r/Torino/) | 65033 | 2011-10-24 | Everything you need to know about Turin: info, new | [stats](https://subredditstats.com/r/Torino) |
 | [r/Bologna](https://www.reddit.com/r/Bologna/) | 60390 | 2012-02-26 | La Dotta, La Grassa, La rossa: Bologna. The city i | [stats](https://subredditstats.com/r/Bologna) |
-| [r/askitaly](https://www.reddit.com/r/askitaly/) | 59719 | 2014-04-14 | Hi!  Are you planning a trip to Italy, or are you  | [stats](https://subredditstats.com/r/askitaly) |
-| [r/Universitaly](https://www.reddit.com/r/Universitaly/) | 55318 | 2020-07-22 | Questo è un subreddit dedicato agli universitari e | [stats](https://subredditstats.com/r/Universitaly) |
+| [r/askitaly](https://www.reddit.com/r/askitaly/) | 59722 | 2014-04-14 | Hi!  Are you planning a trip to Italy, or are you  | [stats](https://subredditstats.com/r/askitaly) |
+| [r/Universitaly](https://www.reddit.com/r/Universitaly/) | 55320 | 2020-07-22 | Questo è un subreddit dedicato agli universitari e | [stats](https://subredditstats.com/r/Universitaly) |
 | [r/rimesegate](https://www.reddit.com/r/rimesegate/) | 51452 | 2019-05-03 | subreddit ufficiale della community di rimesegate! | [stats](https://subredditstats.com/r/rimesegate) |
-| [r/ItalyMotori](https://www.reddit.com/r/ItalyMotori/) | 50051 | 2016-02-23 | # _  * Filtra per categoria ▾     * [AskIM](/r/Ita | [stats](https://subredditstats.com/r/ItalyMotori) |
-| [r/DarioMocciaTwitch](https://www.reddit.com/r/DarioMocciaTwitch/) | 46697 | 2020-03-09 | Il posto dove i meme di Dario Moccia vanno a morir | [stats](https://subredditstats.com/r/DarioMocciaTwitch) |
-| [r/Venezia](https://www.reddit.com/r/Venezia/) | 43269 | 2011-10-28 | **Tutto quanto riguarda Venezia**  **Everything re | [stats](https://subredditstats.com/r/Venezia) |
-| [r/Libri](https://www.reddit.com/r/Libri/) | 37663 | 2013-05-29 | ----- * **Hai letto un libro e ti è piaciuto?** *  | [stats](https://subredditstats.com/r/Libri) |
+| [r/ItalyMotori](https://www.reddit.com/r/ItalyMotori/) | 50052 | 2016-02-23 | # _  * Filtra per categoria ▾     * [AskIM](/r/Ita | [stats](https://subredditstats.com/r/ItalyMotori) |
+| [r/DarioMocciaTwitch](https://www.reddit.com/r/DarioMocciaTwitch/) | 46698 | 2020-03-09 | Il posto dove i meme di Dario Moccia vanno a morir | [stats](https://subredditstats.com/r/DarioMocciaTwitch) |
+| [r/Venezia](https://www.reddit.com/r/Venezia/) | 43271 | 2011-10-28 | **Tutto quanto riguarda Venezia**  **Everything re | [stats](https://subredditstats.com/r/Venezia) |
+| [r/Libri](https://www.reddit.com/r/Libri/) | 37665 | 2013-05-29 | ----- * **Hai letto un libro e ti è piaciuto?** *  | [stats](https://subredditstats.com/r/Libri) |
 | [r/commercialisti](https://www.reddit.com/r/commercialisti/) | 32772 | 2017-05-11 | Subreddit che vorrebbe essere serio ma non ce la f | [stats](https://subredditstats.com/r/commercialisti) |
 | [r/Roma](https://www.reddit.com/r/Roma/) | 32488 | 2011-10-24 | Italiani! Romani! Troviamoci su questo gruppo per  | [stats](https://subredditstats.com/r/Roma) |
 | [r/Italian](https://www.reddit.com/r/Italian/) | 26092 | 2010-05-04 | No particular rule, follow the Reddit guidelines a | [stats](https://subredditstats.com/r/Italian) |
 | [r/ItalyPhotos](https://www.reddit.com/r/ItalyPhotos/) | 14414 | 2014-10-27 | **Benvenuti in /r/ItalyPhotos, a subreddit dedicat | [stats](https://subredditstats.com/r/ItalyPhotos) |
 | [r/TeenagersITA](https://www.reddit.com/r/TeenagersITA/) | 13811 | 2020-10-08 | Per maggiori informazioni sulla comunità consultar | [stats](https://subredditstats.com/r/TeenagersITA) |
 | [r/ItaliaMeme](https://www.reddit.com/r/ItaliaMeme/) | 13548 | 2020-03-30 | Community per memes, immagini divertenti, battute  | [stats](https://subredditstats.com/r/ItaliaMeme) |
+| [r/avvocati](https://www.reddit.com/r/avvocati/) | 11112 | 2019-10-04 | Sub dedicato a quei pochi che praticano la legge e | [stats](https://subredditstats.com/r/avvocati) |
 | [r/politicaITA](https://www.reddit.com/r/politicaITA/) | 10032 | 2014-01-26 | **Due spettri si aggirano per il pianeta: gli spet | [stats](https://subredditstats.com/r/politicaITA) |
 | [r/Firenze](https://www.reddit.com/r/Firenze/) | 8579 | 2012-01-30 | ######[Home](http://www.reddit.com#top) [hott'e](h | [stats](https://subredditstats.com/r/Firenze) |
 | [r/CasualIT](https://www.reddit.com/r/CasualIT/) | 7546 | 2021-04-22 | r/CasualIT: una comunità italiana polleggiata    R | [stats](https://subredditstats.com/r/CasualIT) |
