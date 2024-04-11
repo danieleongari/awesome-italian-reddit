@@ -18,7 +18,7 @@ df = pd.read_csv("subreddits.csv").assign(
     created_utc=(lambda x: pd.to_datetime(x["created_utc"]))
 )
 
-assert df["name"].is_unique, "Subreddits names must be unique"
+assert df["name"].is_unique, f"Subreddits names must be unique, delete: {df['name'][df['name'].duplicated()].tolist()}"
 
 for i, row in df.iterrows():
     print(f"{i}/{len(df)} - reading r/{row['name']}")
