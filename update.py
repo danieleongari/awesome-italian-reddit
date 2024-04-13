@@ -14,8 +14,11 @@ def get_json(subreddit, verbose=False):
     return response.json()
 
 
-df = pd.read_csv("subreddits.csv").assign(
-    created_utc=(lambda x: pd.to_datetime(x["created_utc"]))
+df = (
+    pd.read_csv("subreddits.csv")
+    .assign(created_utc=(lambda x: pd.to_datetime(x["created_utc"])))
+    .sort_values(by="name", key=lambda col: col.str.lower()) # sort by name, case insensitive
+    .reset_index(drop=True)
 )
 
 assert df["name"].is_unique, f"Subreddits names must be unique, delete: {df['name'][df['name'].duplicated()].tolist()}"
