@@ -18,15 +18,18 @@ def get_json(subreddit, verbose=False):
 df = (
     pd.read_csv("subreddits.csv")
     .assign(created_utc=(lambda x: pd.to_datetime(x["created_utc"])))
-    .sort_values(by="name", key=lambda col: col.str.lower()) # sort by name, case insensitive
+    .sort_values(
+        by="name", key=lambda col: col.str.lower()
+    )  # sort by name, case insensitive
     .reset_index(drop=True)
 )
 
-assert df["name"].is_unique, f"Subreddits names must be unique, delete: {df['name'][df['name'].duplicated()].tolist()}"
+assert df[
+    "name"
+].is_unique, f"Subreddits names must be unique, delete: {df['name'][df['name'].duplicated()].tolist()}"
 
 # If the argument --skip-scraping is passed, skip scraping the subreddits
 if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
-    
     for i, row in df.iterrows():
         print(f"{i}/{len(df)} - reading r/{row['name']}")
 
@@ -37,7 +40,9 @@ if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
             continue
 
         if "created_utc" in data["data"]:
-            df.loc[i, "created_utc"] = pd.to_datetime(data["data"]["created_utc"], unit="s")
+            df.loc[i, "created_utc"] = pd.to_datetime(
+                data["data"]["created_utc"], unit="s"
+            )
 
         if "subscribers" in data["data"]:
             df.loc[i, "subscribers"] = data["data"]["subscribers"]
@@ -53,8 +58,7 @@ df.to_csv("subreddits.csv", index=False)
 # Generate Markdown @ README.md
 
 df_readme = (
-    df
-    .query("reason.isna()", engine="python")
+    df.query("reason.isna()", engine="python")
     .dropna(subset=["subscribers", "created_utc"])
     .sort_values("subscribers", ascending=False)
     .astype({"subscribers": int})
@@ -82,19 +86,24 @@ Updated with `python update.py` on {today_date}.
         f.write(
             f"| [r/{name}](https://www.reddit.com/r/{name}/) | {nsubs} | {date} | {description} | [stats](https://subredditstats.com/r/{name}) |\n"
         )
-        
+
 # Generate HTML page @ html_page/index.html
 
 df_html = (
-    df_readme
-    .assign(Subreddit=lambda x: x['name'].apply(lambda x: f'<a href="https://www.reddit.com/r/{x}/">r/{x}</a>'))
-    .assign(**{"Date Creation": lambda x: x['created_utc'].dt.strftime('%Y-%m-%d')})
-    .rename(columns={'subscribers': 'Subscribers', 'description': 'Description'})
-    [['Subreddit', 'Subscribers', 'Date Creation', 'Description']]
+    df_readme.assign(
+        Subreddit=lambda x: x["name"].apply(
+            lambda x: f'<a href="https://www.reddit.com/r/{x}/">r/{x}</a>'
+        )
+    )
+    .assign(**{"Date Creation": lambda x: x["created_utc"].dt.strftime("%Y-%m-%d")})
+    .rename(columns={"subscribers": "Subscribers", "description": "Description"})[
+        ["Subreddit", "Subscribers", "Date Creation", "Description"]
+    ]
 )
 
-with open('html_page/index.html', 'w') as f:
-    f.write("""
+with open("html_page/index.html", "w") as f:
+    f.write(
+        """
     <!DOCTYPE html>
     <html>
     <head>
@@ -119,7 +128,9 @@ with open('html_page/index.html', 'w') as f:
         <script type="text/javascript" charset="utf8">
         $(document).ready( function () {
             $('#table_id').DataTable({
-                "pageLength": """ + str(len(df_readme)) + """,
+                "pageLength": """
+        + str(len(df_readme))
+        + """,
                 "info": false,
                 "paging": false,
                 "order": [[1, 'desc']]
@@ -129,12 +140,15 @@ with open('html_page/index.html', 'w') as f:
     </head>
     <body>
         <h1>Awesome Italian Subreddits</h1>
-    """)
+    """
+    )
 
     # Convert DataFrame to HTML table
-    f.write(df_html.to_html(index=False, table_id='table_id', escape=False))
+    f.write(df_html.to_html(index=False, table_id="table_id", escape=False))
 
-    f.write("""
+    f.write(
+        """
     </body>
     </html>
-    """)
+    """
+    )
