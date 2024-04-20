@@ -74,8 +74,8 @@ with open("README.md", "w") as f:
 
 Updated with `python update.py` on {today_date}. Duplicated in the [GitHub page](https://danieleongari.github.io/awesome-italian-reddit/).
 
-| Name | Subscribers | Date Creation | Description | Stats |
-|------|-------------|---------------|-------------|-------|
+| Name | Subscribers | Date Creation | Description |
+|------|-------------|---------------|-------------|
 """
     )
     for i, row in df_readme.iterrows():
@@ -84,7 +84,7 @@ Updated with `python update.py` on {today_date}. Duplicated in the [GitHub page]
         date = row["created_utc"].date() if not pd.isnull(row["created_utc"]) else ""
         description = row["description"] if not pd.isnull(row["description"]) else ""
         f.write(
-            f"| [r/{name}](https://www.reddit.com/r/{name}/) | {nsubs} | {date} | {description} | [stats](https://subredditstats.com/r/{name}) |\n"
+            f"| [r/{name}](https://www.reddit.com/r/{name}/) | [{nsubs}](https://subredditstats.com/r/{name}) | {date} | {description} |\n"
         )
 
 # Generate HTML page @ docs/index.html
