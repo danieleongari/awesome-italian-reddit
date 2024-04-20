@@ -87,7 +87,7 @@ Updated with `python update.py` on {today_date}.
             f"| [r/{name}](https://www.reddit.com/r/{name}/) | {nsubs} | {date} | {description} | [stats](https://subredditstats.com/r/{name}) |\n"
         )
 
-# Generate HTML page @ html_page/index.html
+# Generate HTML page @ docs/index.html
 
 df_html = (
     df_readme.assign(
@@ -101,7 +101,7 @@ df_html = (
     ]
 )
 
-with open("html_page/index.html", "w") as f:
+with open("docs/index.html", "w") as f:
     f.write(
         """
     <!DOCTYPE html>
