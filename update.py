@@ -1,3 +1,4 @@
+import sys
 import pandas as pd
 import requests
 from fake_useragent import UserAgent
@@ -23,36 +24,41 @@ df = (
 
 assert df["name"].is_unique, f"Subreddits names must be unique, delete: {df['name'][df['name'].duplicated()].tolist()}"
 
-for i, row in df.iterrows():
-    print(f"{i}/{len(df)} - reading r/{row['name']}")
+# If the argument --skip-scraping is passed, skip scraping the subreddits
+if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
+    
+    for i, row in df.iterrows():
+        print(f"{i}/{len(df)} - reading r/{row['name']}")
 
-    data = get_json(row["name"], verbose=False)
+        data = get_json(row["name"], verbose=False)
 
-    if "data" not in data:
-        df.loc[i, "reason"] = data["reason"]
-        continue
+        if "data" not in data:
+            df.loc[i, "reason"] = data["reason"]
+            continue
 
-    if "created_utc" in data["data"]:
-        df.loc[i, "created_utc"] = pd.to_datetime(data["data"]["created_utc"], unit="s")
+        if "created_utc" in data["data"]:
+            df.loc[i, "created_utc"] = pd.to_datetime(data["data"]["created_utc"], unit="s")
 
-    if "subscribers" in data["data"]:
-        df.loc[i, "subscribers"] = data["data"]["subscribers"]
+        if "subscribers" in data["data"]:
+            df.loc[i, "subscribers"] = data["data"]["subscribers"]
 
-    if "description" in data["data"]:
-        df.loc[i, "description"] = data["data"]["description"][
-            :CUT_DESCRIPTION
-        ].replace("\n", " ")
+        if "description" in data["data"]:
+            df.loc[i, "description"] = data["data"]["description"][
+                :CUT_DESCRIPTION
+            ].replace("\n", " ")
 
 df.to_csv("subreddits.csv", index=False)
 
 
-# Now generate a markdown table with the information and save it as README.md
+# Generate Markdown @ README.md
 
 df_readme = (
-    df.copy()
+    df
     .query("reason.isna()", engine="python")
     .dropna(subset=["subscribers", "created_utc"])
     .sort_values("subscribers", ascending=False)
+    .astype({"subscribers": int})
+    .fillna("")
 )
 
 today_date = pd.Timestamp.now().strftime("%Y-%m-%d")
@@ -76,3 +82,59 @@ Updated with `python update.py` on {today_date}.
         f.write(
             f"| [r/{name}](https://www.reddit.com/r/{name}/) | {nsubs} | {date} | {description} | [stats](https://subredditstats.com/r/{name}) |\n"
         )
+        
+# Generate HTML page @ html_page/index.html
+
+df_html = (
+    df_readme
+    .assign(Subreddit=lambda x: x['name'].apply(lambda x: f'<a href="https://www.reddit.com/r/{x}/">r/{x}</a>'))
+    .assign(**{"Date Creation": lambda x: x['created_utc'].dt.strftime('%Y-%m-%d')})
+    .rename(columns={'subscribers': 'Subscribers', 'description': 'Description'})
+    [['Subreddit', 'Subscribers', 'Date Creation', 'Description']]
+)
+
+with open('html_page/index.html', 'w') as f:
+    f.write("""
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+        <style>
+            body {
+                max-width: 1000px;
+                margin: auto;
+            }
+            h1 {
+                text-align: center;
+            }
+            #table_id td:nth-child(2) {
+                text-align: right;
+            }
+            #table_id td:nth-child(3) {
+                text-align: center;
+            }
+        </style>
+        <script type="text/javascript" charset="utf8">
+        $(document).ready( function () {
+            $('#table_id').DataTable({
+                "pageLength": """ + str(len(df_readme)) + """,
+                "info": false,
+                "paging": false,
+                "order": [[1, 'desc']]
+            });
+        } );
+        </script>
+    </head>
+    <body>
+        <h1>Awesome Italian Subreddits</h1>
+    """)
+
+    # Convert DataFrame to HTML table
+    f.write(df_html.to_html(index=False, table_id='table_id', escape=False))
+
+    f.write("""
+    </body>
+    </html>
+    """)

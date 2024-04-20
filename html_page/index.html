@@ -1,0 +1,656 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
+        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
+        <style>
+            body {
+                max-width: 1000px;
+                margin: auto;
+            }
+            h1 {
+                text-align: center;
+            }
+            #table_id td:nth-child(2) {
+                text-align: right;
+            }
+            #table_id td:nth-child(3) {
+                text-align: center;
+            }
+        </style>
+        <script type="text/javascript" charset="utf8">
+        $(document).ready( function () {
+            $('#table_id').DataTable({
+                "pageLength": 101,
+                "info": false,
+                "paging": false,
+                "order": [[1, 'desc']]
+            });
+        } );
+        </script>
+    </head>
+    <body>
+        <h1>Awesome Italian Subreddits</h1>
+    <table border="1" class="dataframe" id="table_id">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Subreddit</th>
+      <th>Subscribers</th>
+      <th>Date Creation</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><a href="https://www.reddit.com/r/italy/">r/italy</a></td>
+      <td>867128</td>
+      <td>2008-07-25</td>
+      <td>&gt;[All](https://reddit.com/r/italy "Every thread</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/memesITA/">r/memesITA</a></td>
+      <td>435801</td>
+      <td>2019-09-21</td>
+      <td>Pizza, Pasta &amp; Memes</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Italia/">r/Italia</a></td>
+      <td>224796</td>
+      <td>2009-11-03</td>
+      <td>L'Italia su reddit  Leggi [il wiki](https://www.re</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItalyInformatica/">r/ItalyInformatica</a></td>
+      <td>125015</td>
+      <td>2016-08-22</td>
+      <td>**Benvenuti su [ItalyInformatica](/r/ItalyInformat</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItaliaPersonalFinance/">r/ItaliaPersonalFinance</a></td>
+      <td>119068</td>
+      <td>2017-01-27</td>
+      <td>Tutti i consigli che vengono dati in questo subred</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Napoli/">r/Napoli</a></td>
+      <td>101502</td>
+      <td>2011-08-17</td>
+      <td># aaa  # aaa</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/MemeItaliani/">r/MemeItaliani</a></td>
+      <td>99051</td>
+      <td>2020-01-02</td>
+      <td>Per gli italiani su Reddit a cui piacciono i meme</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/italianlearning/">r/italianlearning</a></td>
+      <td>96778</td>
+      <td>2012-04-06</td>
+      <td>#[](#h1-grey) &gt; ##[BENVENUTI in /r/italianlearn</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Rome/">r/Rome</a></td>
+      <td>83338</td>
+      <td>2010-04-22</td>
+      <td>Welcome to the subreddit for Rome, Italy! Feel fre</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ITAGLIA/">r/ITAGLIA</a></td>
+      <td>81945</td>
+      <td>2014-01-13</td>
+      <td>[Questo sub fa parte di /r/ItalyNetwork](/r/italyn</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItalianFood/">r/ItalianFood</a></td>
+      <td>79228</td>
+      <td>2012-07-05</td>
+      <td>r/ItalianFood Rules  *1.Italian Food only!*  This</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Milano/">r/Milano</a></td>
+      <td>71592</td>
+      <td>2009-06-22</td>
+      <td>The purpose of the sub is to post interesting link</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Torino/">r/Torino</a></td>
+      <td>65559</td>
+      <td>2011-10-24</td>
+      <td>Everything you need to know about Turin: info, new</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/askitaly/">r/askitaly</a></td>
+      <td>61353</td>
+      <td>2014-04-14</td>
+      <td>Hi!  Are you planning a trip to Italy, or are you</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Bologna/">r/Bologna</a></td>
+      <td>60750</td>
+      <td>2012-02-26</td>
+      <td>La Dotta, La Grassa, La rossa: Bologna. The city i</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Calcio/">r/Calcio</a></td>
+      <td>56848</td>
+      <td>2010-11-19</td>
+      <td>## [Serie A](https://reddit.com/r/calcio/wiki/seri</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Universitaly/">r/Universitaly</a></td>
+      <td>56074</td>
+      <td>2020-07-22</td>
+      <td>Questo è un subreddit dedicato agli universitari e</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/rimesegate/">r/rimesegate</a></td>
+      <td>51441</td>
+      <td>2019-05-03</td>
+      <td>subreddit ufficiale della community di rimesegate!</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItalyMotori/">r/ItalyMotori</a></td>
+      <td>50784</td>
+      <td>2016-02-23</td>
+      <td># _  * Filtra per categoria ▾     * [AskIM](/r/Ita</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/DarioMocciaTwitch/">r/DarioMocciaTwitch</a></td>
+      <td>46895</td>
+      <td>2020-03-09</td>
+      <td>Il posto dove i meme di Dario Moccia vanno a morir</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Venezia/">r/Venezia</a></td>
+      <td>43566</td>
+      <td>2011-10-28</td>
+      <td>**Tutto quanto riguarda Venezia**  **Everything re</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Libri/">r/Libri</a></td>
+      <td>38456</td>
+      <td>2013-05-29</td>
+      <td>----- * **Hai letto un libro e ti è piaciuto?** *</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/commercialisti/">r/commercialisti</a></td>
+      <td>32918</td>
+      <td>2017-05-11</td>
+      <td>Subreddit che vorrebbe essere serio ma non ce la f</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Roma/">r/Roma</a></td>
+      <td>32562</td>
+      <td>2011-10-24</td>
+      <td>Italiani! Romani! Troviamoci su questo gruppo per</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Italian/">r/Italian</a></td>
+      <td>26264</td>
+      <td>2010-05-04</td>
+      <td>No particular rule, follow the Reddit guidelines a</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItalyPhotos/">r/ItalyPhotos</a></td>
+      <td>14413</td>
+      <td>2014-10-27</td>
+      <td>**Benvenuti in /r/ItalyPhotos, a subreddit dedicat</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/TeenagersITA/">r/TeenagersITA</a></td>
+      <td>13916</td>
+      <td>2020-10-08</td>
+      <td>Per maggiori informazioni sulla comunità consultar</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItaliaMeme/">r/ItaliaMeme</a></td>
+      <td>13612</td>
+      <td>2020-03-30</td>
+      <td>Community per memes, immagini divertenti, battute</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/avvocati/">r/avvocati</a></td>
+      <td>11252</td>
+      <td>2019-10-04</td>
+      <td>Sub dedicato a quei pochi che praticano la legge e</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/politicaITA/">r/politicaITA</a></td>
+      <td>10038</td>
+      <td>2014-01-26</td>
+      <td>**Due spettri si aggirano per il pianeta: gli spet</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Firenze/">r/Firenze</a></td>
+      <td>8636</td>
+      <td>2012-01-30</td>
+      <td>######[Home](http://www.reddit.com#top) [hott'e](h</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/CasualIT/">r/CasualIT</a></td>
+      <td>7930</td>
+      <td>2021-04-22</td>
+      <td>r/CasualIT: una comunità italiana polleggiata    R</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/MemeTemplatesIta/">r/MemeTemplatesIta</a></td>
+      <td>5426</td>
+      <td>2020-07-04</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Trieste/">r/Trieste</a></td>
+      <td>5284</td>
+      <td>2013-02-27</td>
+      <td>Trieste (/triːˈɛst/; Italian pronunciation: [triˈɛ</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/OnePiece_it/">r/OnePiece_it</a></td>
+      <td>3636</td>
+      <td>2018-05-17</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/italianmusic/">r/italianmusic</a></td>
+      <td>2876</td>
+      <td>2013-01-10</td>
+      <td>**All you Italian music lovers out there, submit a</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Lazio/">r/Lazio</a></td>
+      <td>2865</td>
+      <td>2012-03-05</td>
+      <td>A subreddit dedicated to the   S.S. Lazio ===  Off</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/litigi/">r/litigi</a></td>
+      <td>2833</td>
+      <td>2017-08-14</td>
+      <td>Questo subreddit vuole proporsi come luogo di libe</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/polinetwork/">r/polinetwork</a></td>
+      <td>2698</td>
+      <td>2018-09-25</td>
+      <td>Subreddit del Politecnico di Milano! ( polimi ) Il</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/cazzeggio/">r/cazzeggio</a></td>
+      <td>2581</td>
+      <td>2015-01-08</td>
+      <td>Se non avete voglia di lavorare o non sapete come</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/italyLGBT/">r/italyLGBT</a></td>
+      <td>2531</td>
+      <td>2013-08-23</td>
+      <td>Questo subreddit è per tutti gli italiani (in Ital</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Genova/">r/Genova</a></td>
+      <td>2455</td>
+      <td>2011-10-25</td>
+      <td>&gt; *Umbre de muri muri de mainé* &gt; &gt; *dund</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Sicilia/">r/Sicilia</a></td>
+      <td>2120</td>
+      <td>2012-04-03</td>
+      <td>This is a subreddit to everything related to Sicil</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Erba/">r/Erba</a></td>
+      <td>2107</td>
+      <td>2011-03-07</td>
+      <td>Ecco la comunità italiana r/erba!  Il primo subred</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItaliaRossa/">r/ItaliaRossa</a></td>
+      <td>2067</td>
+      <td>2021-03-03</td>
+      <td>Benvenuti su r/ItaliaRossa: una community che ha c</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Best_memerITA/">r/Best_memerITA</a></td>
+      <td>2037</td>
+      <td>2020-08-26</td>
+      <td>community dei best memer italiani</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Bari/">r/Bari</a></td>
+      <td>1758</td>
+      <td>2013-05-14</td>
+      <td>**Benvenuto nella comunita Barese di reddit!**  *B</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Sardegna/">r/Sardegna</a></td>
+      <td>1550</td>
+      <td>2014-02-18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Palermo/">r/Palermo</a></td>
+      <td>1157</td>
+      <td>2011-11-28</td>
+      <td>[](#PalermoSidebarImage) A subreddit dedicated to</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Italia_News/">r/Italia_News</a></td>
+      <td>1117</td>
+      <td>2024-02-09</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/AndroidItalia/">r/AndroidItalia</a></td>
+      <td>1083</td>
+      <td>2016-10-24</td>
+      <td>Comunità aperta italiana dedicata al mondo Android</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Catania/">r/Catania</a></td>
+      <td>1063</td>
+      <td>2015-07-25</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ArteITA/">r/ArteITA</a></td>
+      <td>1063</td>
+      <td>2017-05-28</td>
+      <td>Una community per gli amanti dell'arte per condivi</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Calabria/">r/Calabria</a></td>
+      <td>1008</td>
+      <td>2009-10-16</td>
+      <td>Un subreddit per chi vive in Calabria,      per ch</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Padova/">r/Padova</a></td>
+      <td>1005</td>
+      <td>2013-01-11</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/gdr/">r/gdr</a></td>
+      <td>820</td>
+      <td>2013-02-17</td>
+      <td>#Welcome! Benvenuti!  ###About "Giochi di ruolo" m</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItalyCalcio/">r/ItalyCalcio</a></td>
+      <td>796</td>
+      <td>2017-03-30</td>
+      <td>[Questo sub fa parte di /r/ItalyNetwork](/r/italyn</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/hiphopitaly/">r/hiphopitaly</a></td>
+      <td>788</td>
+      <td>2013-06-04</td>
+      <td>[] (/sidebar)  img by [Lo Swagghetto](https://www.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/CityOfCommentsITA/">r/CityOfCommentsITA</a></td>
+      <td>708</td>
+      <td>2020-08-07</td>
+      <td>su reddit creato per segnalare i commenti di reddi</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Twitch_Italia/">r/Twitch_Italia</a></td>
+      <td>649</td>
+      <td>2019-10-14</td>
+      <td>Questa è il subreddit per la community italiana di</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Modena/">r/Modena</a></td>
+      <td>637</td>
+      <td>2014-03-28</td>
+      <td>Benvenuti su [r/Modena](https://www.reddit.com/r/M</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/innovazione/">r/innovazione</a></td>
+      <td>622</td>
+      <td>2019-03-27</td>
+      <td>Parliamo di innovazione, tecnologia e di che impat</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Friuli/">r/Friuli</a></td>
+      <td>578</td>
+      <td>2012-08-14</td>
+      <td>Finché c'è frico c'è speranza.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/DomandeDaReddit/">r/DomandeDaReddit</a></td>
+      <td>571</td>
+      <td>2021-03-09</td>
+      <td>Un subreddit italiano spirato a /r/AskReddit dove</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Abruzzo/">r/Abruzzo</a></td>
+      <td>561</td>
+      <td>2013-04-08</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Veneto/">r/Veneto</a></td>
+      <td>534</td>
+      <td>2013-05-20</td>
+      <td>🇮🇹 Il subreddit del Veneto e delle loro città.  Po</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Barbecue_Italia/">r/Barbecue_Italia</a></td>
+      <td>529</td>
+      <td>2022-01-21</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Psicologia_Italia/">r/Psicologia_Italia</a></td>
+      <td>529</td>
+      <td>2020-05-01</td>
+      <td>Il Primo Subreddit in Italiano dedicato alla Psico</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/MinecraftITA/">r/MinecraftITA</a></td>
+      <td>522</td>
+      <td>2020-03-18</td>
+      <td>VIVA MINECRAFT</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Cina/">r/Cina</a></td>
+      <td>502</td>
+      <td>2012-10-05</td>
+      <td>Benvenuti in questo sub dedicato alla Cina e alla</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/MangaItalia/">r/MangaItalia</a></td>
+      <td>473</td>
+      <td>2020-09-20</td>
+      <td>Un subreddit per tutti gli appassionati di manga i</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/italiantheory/">r/italiantheory</a></td>
+      <td>455</td>
+      <td>2014-02-06</td>
+      <td>Why Italian theory? What is Italian thought and wh</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Toscana/">r/Toscana</a></td>
+      <td>410</td>
+      <td>2010-09-06</td>
+      <td>Tutto sulla Toscana</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Lombardia/">r/Lombardia</a></td>
+      <td>392</td>
+      <td>2016-08-31</td>
+      <td>Se vuoi partecipare alla gestione del subreddit ma</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Piemonte/">r/Piemonte</a></td>
+      <td>371</td>
+      <td>2016-08-31</td>
+      <td>Se vuoi partecipare alla gestione del subreddit ma</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/FilosofiaItalia/">r/FilosofiaItalia</a></td>
+      <td>339</td>
+      <td>2022-10-18</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Poesie_italia/">r/Poesie_italia</a></td>
+      <td>310</td>
+      <td>2020-04-16</td>
+      <td>Hello there! This is an Italian community where to</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/ItaliaPolitica/">r/ItaliaPolitica</a></td>
+      <td>306</td>
+      <td>2020-08-22</td>
+      <td>La prima community per discutere della Politica It</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/SecurityIT/">r/SecurityIT</a></td>
+      <td>264</td>
+      <td>2020-07-14</td>
+      <td>Parliamo di IT security in ITaliano.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/BitcoinItalia/">r/BitcoinItalia</a></td>
+      <td>261</td>
+      <td>2013-11-24</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/MostroDiFirenze/">r/MostroDiFirenze</a></td>
+      <td>244</td>
+      <td>2020-03-26</td>
+      <td>Discussioni sul Mostro di Firenze</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Cantautorato/">r/Cantautorato</a></td>
+      <td>197</td>
+      <td>2019-08-23</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Liguria/">r/Liguria</a></td>
+      <td>191</td>
+      <td>2013-06-23</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Trentino_alto_Adige/">r/Trentino_alto_Adige</a></td>
+      <td>173</td>
+      <td>2016-08-31</td>
+      <td>Se vuoi partecipare alla gestione del subreddit ma</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/hmmITA/">r/hmmITA</a></td>
+      <td>154</td>
+      <td>2020-11-01</td>
+      <td>il subreddit italiano di cose che fanno dire hmm</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Trento/">r/Trento</a></td>
+      <td>151</td>
+      <td>2022-04-15</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Perugia/">r/Perugia</a></td>
+      <td>145</td>
+      <td>2010-05-14</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/figuredimerd/">r/figuredimerd</a></td>
+      <td>135</td>
+      <td>2021-04-10</td>
+      <td>si postano tutte le figure di merda di reddit ital</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/italysteam/">r/italysteam</a></td>
+      <td>120</td>
+      <td>2014-04-25</td>
+      <td>scemo chi legge la sidebar  http://steamcommunity.</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Marche/">r/Marche</a></td>
+      <td>114</td>
+      <td>2021-09-03</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Basilicata/">r/Basilicata</a></td>
+      <td>103</td>
+      <td>2013-06-23</td>
+      <td>Basilicata</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/CarmeloBene/">r/CarmeloBene</a></td>
+      <td>100</td>
+      <td>2020-10-05</td>
+      <td>"Io ignoro. Io sono la mia s'ignora. Sono s'ignora</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/CineItalia/">r/CineItalia</a></td>
+      <td>85</td>
+      <td>2017-04-11</td>
+      <td>"A differenza di tutte le altre forme d’arte, il c</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/CityOfMusicITA/">r/CityOfMusicITA</a></td>
+      <td>81</td>
+      <td>2021-05-23</td>
+      <td>Ecco qua il subreddit ufficiale di condivisione di</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/memesItaMC/">r/memesItaMC</a></td>
+      <td>80</td>
+      <td>2020-10-18</td>
+      <td>Postate qui meme su Minecraft, il miglior gioco di</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/TF2Italia/">r/TF2Italia</a></td>
+      <td>76</td>
+      <td>2018-01-12</td>
+      <td>Subreddit a disposizione della Community italiana</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Umbria/">r/Umbria</a></td>
+      <td>73</td>
+      <td>2022-01-06</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/tuttosport/">r/tuttosport</a></td>
+      <td>40</td>
+      <td>2020-12-09</td>
+      <td>ciao, se siete dei patiti di ogni sport o anche di</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Molise/">r/Molise</a></td>
+      <td>27</td>
+      <td>2022-01-02</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/MarzulloFanClub/">r/MarzulloFanClub</a></td>
+      <td>15</td>
+      <td>2020-10-08</td>
+      <td>E' notte alta e sono sveglio, sei sempre tu il mio</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.reddit.com/r/Aosta/">r/Aosta</a></td>
+      <td>6</td>
+      <td>2021-11-29</td>
+      <td>aosta</td>
+    </tr>
+  </tbody>
+</table>
+    </body>
+    </html>
+    
