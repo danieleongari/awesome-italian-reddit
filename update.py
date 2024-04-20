@@ -72,7 +72,7 @@ with open("README.md", "w") as f:
         f"""
 # Awesome Italian Reddit  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Updated with `python update.py` on {today_date}.
+Updated with `python update.py` on {today_date}. Duplicated in the [GitHub page](https://danieleongari.github.io/awesome-italian-reddit/).
 
 | Name | Subscribers | Date Creation | Description | Stats |
 |------|-------------|---------------|-------------|-------|

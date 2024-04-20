@@ -1,7 +1,7 @@
 
 # Awesome Italian Reddit  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Updated with `python update.py` on 2024-04-20.
+Updated with `python update.py` on 2024-04-20. Duplicated in the [GitHub page](https://danieleongari.github.io/awesome-italian-reddit/).
 
 | Name | Subscribers | Date Creation | Description | Stats |
 |------|-------------|---------------|-------------|-------|
