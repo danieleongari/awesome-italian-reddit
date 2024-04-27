@@ -37,6 +37,7 @@ if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
 
         if "data" not in data:
             df.loc[i, "reason"] = data["reason"]
+            print(" >>> Error:", data["reason"])
             continue
 
         if "created_utc" in data["data"]:
