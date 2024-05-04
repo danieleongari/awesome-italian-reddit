@@ -140,7 +140,7 @@ with open("docs/index.html", "w") as f:
         </script>
     </head>
     <body>
-        <h1>Awesome Italian Subreddits</h1>
+        <h1>Awesome Italian SubReddits</h1>
     """
     )
 
