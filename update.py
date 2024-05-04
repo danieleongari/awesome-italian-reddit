@@ -97,10 +97,29 @@ df_html = (
         )
     )
     .assign(**{"Date Creation": lambda x: x["created_utc"].dt.strftime("%Y-%m-%d")})
-    .rename(columns={"subscribers": "Subscribers", "description": "Description"})[
-        ["Subreddit", "Subscribers", "Date Creation", "Description"]
+    .assign(
+        Stats=lambda x: x["name"].apply(
+            lambda x: f'<a href="https://subredditstats.com/r/{x}">&#9827;</a>'
+        )
+    )
+    .rename(
+        columns={
+            "subscribers": "Subscribers",
+            "description": "Description",
+            "tag": "TAG",
+        }
+    )[
+        [
+            "Subreddit",  # 1
+            "TAG",  # 2
+            "Subscribers",  # 3
+            "Date Creation",  # 4
+            "Description",  # 5
+            "Stats",  # 6
+        ]
     ]
 )
+
 
 with open("docs/index.html", "w") as f:
     f.write(
@@ -119,10 +138,10 @@ with open("docs/index.html", "w") as f:
             h1 {
                 text-align: center;
             }
-            #table_id td:nth-child(2) {
+            #table_id td:nth-child(3) {
                 text-align: right;
             }
-            #table_id td:nth-child(3) {
+            #table_id td:nth-child(4), #table_id td:nth-child(6){
                 text-align: center;
             }
         </style>
@@ -134,14 +153,16 @@ with open("docs/index.html", "w") as f:
         + """,
                 "info": false,
                 "paging": false,
-                "order": [[1, 'desc']]
+                "order": [[2, 'desc']]
             });
         } );
         </script>
     </head>
     <body>
         <h1>Awesome Italian SubReddits</h1>
-    """
+        <p><a href="https://github.com/danieleongari/awesome-italian-reddit">Link to GitHub script</a>,
+    """ + 
+    f"last update on {today_date}.</p>"
     )
 
     # Convert DataFrame to HTML table
