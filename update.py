@@ -2,6 +2,7 @@ import sys
 import pandas as pd
 import requests
 from fake_useragent import UserAgent
+import time
 
 CUT_DESCRIPTION = 50
 
@@ -36,8 +37,10 @@ if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
         data = get_json(row["name"], verbose=False)
 
         if "data" not in data:
+            if "reason" not in data:
+                raise ValueError(str(data)) # typical: {'message': 'Too Many Requests', 'error': 429}
             df.loc[i, "reason"] = data["reason"]
-            print(" >>> Error:", data["reason"])
+            print(" >>> Error:", df.loc[i, "reason"])
             continue
 
         if "created_utc" in data["data"]:
@@ -52,6 +55,8 @@ if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
             df.loc[i, "description"] = data["data"]["description"][
                 :CUT_DESCRIPTION
             ].replace("\n", " ")
+            
+        time.sleep(10)  # avoid Too Many Requests
 
 df.to_csv("subreddits.csv", index=False)
 
