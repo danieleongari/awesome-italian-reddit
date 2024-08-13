@@ -32,18 +32,21 @@ assert df[
 # If the argument --skip-scraping is passed, skip scraping the subreddits
 if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
     for i, row in df.iterrows():
-        
         # if specified, skip already scraped subreddits
-        if ("--only-new" in sys.argv or "-on" in sys.argv) and pd.notnull(row["created_utc"]):
+        if ("--only-new" in sys.argv or "-on" in sys.argv) and pd.notnull(
+            row["created_utc"]
+        ):
             continue
-        
+
         print(f"{i}/{len(df)} - reading r/{row['name']}")
 
         data = get_json(row["name"], verbose=False)
 
         if "data" not in data:
             if "reason" not in data:
-                raise ValueError(str(data)) # typical: {'message': 'Too Many Requests', 'error': 429}
+                raise ValueError(
+                    str(data)
+                )  # typical: {'message': 'Too Many Requests', 'error': 429}
             df.loc[i, "reason"] = data["reason"]
             print(" >>> Error:", df.loc[i, "reason"])
             continue
@@ -61,7 +64,7 @@ if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
             df.loc[i, "description"] = data["data"]["description"][
                 :CUT_DESCRIPTION
             ].replace("\n", " ")
-            
+
         time.sleep(10)  # avoid Too Many Requests
 
 df.to_csv("subreddits.csv", index=False)
@@ -172,8 +175,8 @@ with open("docs/index.html", "w") as f:
     <body>
         <h1>Awesome Italian SubReddits</h1>
         <p><a href="https://github.com/danieleongari/awesome-italian-reddit">Link to GitHub script</a>,
-    """ + 
-    f"last update on {today_date}.</p>"
+    """
+        + f"last update on {today_date}.</p>"
     )
 
     # Convert DataFrame to HTML table
