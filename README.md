@@ -97,6 +97,7 @@ Updated with `python update.py` on 2024-08-13. Browse the [webpage](https://dani
 | [r/Toscana](https://www.reddit.com/r/Toscana/) | [438](https://subredditstats.com/r/Toscana) | 2010-09-06 | Tutto sulla Toscana |
 | [r/Lombardia](https://www.reddit.com/r/Lombardia/) | [428](https://subredditstats.com/r/Lombardia) | 2016-08-31 | Se vuoi partecipare alla gestione del subreddit ma |
 | [r/ItalyHardware](https://www.reddit.com/r/ItalyHardware/) | [408](https://subredditstats.com/r/ItalyHardware) | 2024-07-04 |  |
+| [r/Coinquilini_di_merda](https://www.reddit.com/r/Coinquilini_di_merda/) | [407](https://subredditstats.com/r/Coinquilini_di_merda) | 2024-07-24 | Che il coinquilino di merda sia tu o il tuo fedele |
 | [r/Piemonte](https://www.reddit.com/r/Piemonte/) | [400](https://subredditstats.com/r/Piemonte) | 2016-08-31 | Se vuoi partecipare alla gestione del subreddit ma |
 | [r/FilosofiaItalia](https://www.reddit.com/r/FilosofiaItalia/) | [389](https://subredditstats.com/r/FilosofiaItalia) | 2022-10-18 |  |
 | [r/Poesie_italia](https://www.reddit.com/r/Poesie_italia/) | [331](https://subredditstats.com/r/Poesie_italia) | 2020-04-16 | Hello there! This is an Italian community where to |
@@ -121,8 +122,8 @@ Updated with `python update.py` on 2024-08-13. Browse the [webpage](https://dani
 | [r/Umbria](https://www.reddit.com/r/Umbria/) | [91](https://subredditstats.com/r/Umbria) | 2022-01-06 |  |
 | [r/CineItalia](https://www.reddit.com/r/CineItalia/) | [90](https://subredditstats.com/r/CineItalia) | 2017-04-11 | "A differenza di tutte le altre forme d’arte, il c |
 | [r/CityOfMusicITA](https://www.reddit.com/r/CityOfMusicITA/) | [87](https://subredditstats.com/r/CityOfMusicITA) | 2021-05-23 | Ecco qua il subreddit ufficiale di condivisione di |
-| [r/TF2Italia](https://www.reddit.com/r/TF2Italia/) | [81](https://subredditstats.com/r/TF2Italia) | 2018-01-12 | Subreddit a disposizione della Community italiana  |
 | [r/memesItaMC](https://www.reddit.com/r/memesItaMC/) | [81](https://subredditstats.com/r/memesItaMC) | 2020-10-18 | Postate qui meme su Minecraft, il miglior gioco di |
+| [r/TF2Italia](https://www.reddit.com/r/TF2Italia/) | [81](https://subredditstats.com/r/TF2Italia) | 2018-01-12 | Subreddit a disposizione della Community italiana  |
 | [r/Foggia](https://www.reddit.com/r/Foggia/) | [52](https://subredditstats.com/r/Foggia) | 2020-07-18 | Un subreddit per la città di Foggia. Per richieder |
 | [r/tuttosport](https://www.reddit.com/r/tuttosport/) | [40](https://subredditstats.com/r/tuttosport) | 2020-12-09 | ciao, se siete dei patiti di ogni sport o anche di |
 | [r/Molise](https://www.reddit.com/r/Molise/) | [30](https://subredditstats.com/r/Molise) | 2022-01-02 |  |

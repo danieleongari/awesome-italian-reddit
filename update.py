@@ -32,6 +32,11 @@ assert df[
 # If the argument --skip-scraping is passed, skip scraping the subreddits
 if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
     for i, row in df.iterrows():
+        
+        # if specified, skip already scraped subreddits
+        if ("--only-new" in sys.argv or "-on" in sys.argv) and pd.notnull(row["created_utc"]):
+            continue
+        
         print(f"{i}/{len(df)} - reading r/{row['name']}")
 
         data = get_json(row["name"], verbose=False)
