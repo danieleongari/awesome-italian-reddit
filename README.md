@@ -1,7 +1,7 @@
 
 # Awesome Italian Reddit  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Updated with `python update.py` on 2025-05-30. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
+Updated with `python update.py` on 2025-06-07. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
 
 | Name | Subscribers | Date Creation | Description |
 |------|-------------|---------------|-------------|
@@ -17,6 +17,7 @@ Updated with `python update.py` on 2025-05-30. Browse the [webpage](https://dani
 | [r/Napoli](https://www.reddit.com/r/Napoli/) | [141654](https://subredditstats.com/r/Napoli) | 2011-08-17 | # aaa  # aaa |
 | [r/Rome](https://www.reddit.com/r/Rome/) | [135208](https://subredditstats.com/r/Rome) | 2010-04-22 | Welcome to the subreddit for Rome, Italy! Feel fre |
 | [r/italianlearning](https://www.reddit.com/r/italianlearning/) | [129093](https://subredditstats.com/r/italianlearning) | 2012-04-06 | #[](#h1-grey) &gt; ##[BENVENUTI in /r/italianlearn |
+| [r/ItalyTravel](https://www.reddit.com/r/ItalyTravel/) | [128812](https://subredditstats.com/r/ItalyTravel) | 2018-10-10 |  |
 | [r/Milano](https://www.reddit.com/r/Milano/) | [112726](https://subredditstats.com/r/Milano) | 2009-06-22 | The purpose of the sub is to post interesting cont |
 | [r/Calcio](https://www.reddit.com/r/Calcio/) | [112158](https://subredditstats.com/r/Calcio) | 2010-11-19 | ## [Serie A](https://reddit.com/r/calcio/wiki/seri |
 | [r/Universitaly](https://www.reddit.com/r/Universitaly/) | [111451](https://subredditstats.com/r/Universitaly) | 2020-07-22 | Questo è un subreddit dedicato agli universitari e |
@@ -93,8 +94,8 @@ Updated with `python update.py` on 2025-05-30. Browse the [webpage](https://dani
 | [r/ItalyCalcio](https://www.reddit.com/r/ItalyCalcio/) | [879](https://subredditstats.com/r/ItalyCalcio) | 2017-03-30 | [Questo sub fa parte di /r/ItalyNetwork](/r/italyn |
 | [r/gdr](https://www.reddit.com/r/gdr/) | [867](https://subredditstats.com/r/gdr) | 2013-02-17 | #Welcome! Benvenuti!  ###About "Giochi di ruolo" m |
 | [r/Abruzzo](https://www.reddit.com/r/Abruzzo/) | [799](https://subredditstats.com/r/Abruzzo) | 2013-04-08 |  |
-| [r/Friuli](https://www.reddit.com/r/Friuli/) | [776](https://subredditstats.com/r/Friuli) | 2012-08-14 | Finché c'è frico c'è speranza. |
 | [r/BitcoinItalia](https://www.reddit.com/r/BitcoinItalia/) | [776](https://subredditstats.com/r/BitcoinItalia) | 2013-11-24 |  |
+| [r/Friuli](https://www.reddit.com/r/Friuli/) | [776](https://subredditstats.com/r/Friuli) | 2012-08-14 | Finché c'è frico c'è speranza. |
 | [r/DomandeDaReddit](https://www.reddit.com/r/DomandeDaReddit/) | [742](https://subredditstats.com/r/DomandeDaReddit) | 2021-03-09 | Un subreddit italiano spirato a /r/AskReddit dove  |
 | [r/CityOfCommentsITA](https://www.reddit.com/r/CityOfCommentsITA/) | [710](https://subredditstats.com/r/CityOfCommentsITA) | 2020-08-07 | su reddit creato per segnalare i commenti di reddi |
 | [r/Twitch_Italia](https://www.reddit.com/r/Twitch_Italia/) | [691](https://subredditstats.com/r/Twitch_Italia) | 2019-10-14 | Questa è il subreddit per la community italiana di |
@@ -102,6 +103,7 @@ Updated with `python update.py` on 2025-05-30. Browse the [webpage](https://dani
 | [r/FilosofiaItalia](https://www.reddit.com/r/FilosofiaItalia/) | [665](https://subredditstats.com/r/FilosofiaItalia) | 2022-10-18 |  |
 | [r/cattolicesimo](https://www.reddit.com/r/cattolicesimo/) | [664](https://subredditstats.com/r/cattolicesimo) | 2017-07-24 |  |
 | [r/MangaItalia](https://www.reddit.com/r/MangaItalia/) | [619](https://subredditstats.com/r/MangaItalia) | 2020-09-20 | Un subreddit per tutti gli appassionati di manga i |
+| [r/Yunisorrisiecanzoni](https://www.reddit.com/r/Yunisorrisiecanzoni/) | [608](https://subredditstats.com/r/Yunisorrisiecanzoni) | 2025-04-11 | Musica, cultura pop e show biz dall'Italia e dal m |
 | [r/MinecraftITA](https://www.reddit.com/r/MinecraftITA/) | [596](https://subredditstats.com/r/MinecraftITA) | 2020-03-18 | VIVA MINECRAFT |
 | [r/Barbecue_Italia](https://www.reddit.com/r/Barbecue_Italia/) | [554](https://subredditstats.com/r/Barbecue_Italia) | 2022-01-21 |  |
 | [r/Cina](https://www.reddit.com/r/Cina/) | [546](https://subredditstats.com/r/Cina) | 2012-10-05 | Benvenuti in questo sub dedicato alla Cina e alla  |
@@ -110,6 +112,7 @@ Updated with `python update.py` on 2025-05-30. Browse the [webpage](https://dani
 | [r/Piemonte](https://www.reddit.com/r/Piemonte/) | [483](https://subredditstats.com/r/Piemonte) | 2016-08-31 | Se vuoi partecipare alla gestione del subreddit ma |
 | [r/italiantheory](https://www.reddit.com/r/italiantheory/) | [463](https://subredditstats.com/r/italiantheory) | 2014-02-06 | Why Italian theory? What is Italian thought and wh |
 | [r/SecurityIT](https://www.reddit.com/r/SecurityIT/) | [451](https://subredditstats.com/r/SecurityIT) | 2020-07-14 | Parliamo di IT security in ITaliano. |
+| [r/ItalyProfumi](https://www.reddit.com/r/ItalyProfumi/) | [412](https://subredditstats.com/r/ItalyProfumi) | 2024-10-24 | La comunità italiana dei profumi e delle fragranze |
 | [r/Poesie_italia](https://www.reddit.com/r/Poesie_italia/) | [400](https://subredditstats.com/r/Poesie_italia) | 2020-04-16 | Hello there! This is an Italian community where to |
 | [r/MostroDiFirenze](https://www.reddit.com/r/MostroDiFirenze/) | [365](https://subredditstats.com/r/MostroDiFirenze) | 2020-03-26 | Discussioni sul Mostro di Firenze |
 | [r/ItaliaPolitica](https://www.reddit.com/r/ItaliaPolitica/) | [347](https://subredditstats.com/r/ItaliaPolitica) | 2020-08-22 | La prima community per discutere della Politica It |
