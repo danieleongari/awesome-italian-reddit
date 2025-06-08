@@ -76,6 +76,7 @@ df_readme = (
     df.query("reason.isna()", engine="python")
     .dropna(subset=["subscribers", "created_utc"])
     .sort_values("subscribers", ascending=False)
+    .reset_index(drop=True)
     .astype({"subscribers": int})
     .fillna("")
 )
@@ -89,8 +90,8 @@ with open("README.md", "w") as f:
 
 Updated with `python update.py` on {today_date}. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
 
-| Name | Subscribers | Date Creation | Description |
-|------|-------------|---------------|-------------|
+| N | Name | Subscribers | Date Creation | Description |
+|---|------|-------------|---------------|-------------|
 """
     )
     for i, row in df_readme.iterrows():
@@ -99,13 +100,14 @@ Updated with `python update.py` on {today_date}. Browse the [webpage](https://da
         date = row["created_utc"].date() if not pd.isnull(row["created_utc"]) else ""
         description = row["description"] if not pd.isnull(row["description"]) else ""
         f.write(
-            f"| [r/{name}](https://www.reddit.com/r/{name}/) | [{nsubs}](https://subredditstats.com/r/{name}) | {date} | {description} |\n"
+            f"| {i+1} | [r/{name}](https://www.reddit.com/r/{name}/) | [{nsubs}](https://subredditstats.com/r/{name}) | {date} | {description} |\n"
         )
 
 # Generate HTML page @ docs/index.html
 
 df_html = (
-    df_readme.assign(
+    df_readme
+    .assign(
         Subreddit=lambda x: x["name"].apply(
             lambda x: f'<a href="https://www.reddit.com/r/{x}/">r/{x}</a>'
         )
@@ -116,20 +118,25 @@ df_html = (
             lambda x: f'<a href="https://subredditstats.com/r/{x}">&#9827;</a>'
         )
     )
+    .assign(
+        N=lambda x: x.index + 1
+    )
     .rename(
         columns={
             "subscribers": "Subscribers",
             "description": "Description",
             "tag": "TAG",
         }
-    )[
+    )
+    [
         [
-            "Subreddit",  # 1
-            "TAG",  # 2
-            "Subscribers",  # 3
-            "Date Creation",  # 4
-            "Description",  # 5
-            "Stats",  # 6
+            "N", # 1
+            "Subreddit",  # 2
+            "TAG",  # 3
+            "Subscribers",  # 4
+            "Date Creation",  # 5
+            "Description",  # 6
+            "Stats",  # 7
         ]
     ]
 )
@@ -152,10 +159,10 @@ with open("docs/index.html", "w") as f:
             h1 {
                 text-align: center;
             }
-            #table_id td:nth-child(3) {
+            #table_id td:nth-child(4) {
                 text-align: right;
             }
-            #table_id td:nth-child(4), #table_id td:nth-child(6){
+            #table_id td:nth-child(5), #table_id td:nth-child(7){
                 text-align: center;
             }
         </style>
@@ -167,7 +174,7 @@ with open("docs/index.html", "w") as f:
         + """,
                 "info": false,
                 "paging": false,
-                "order": [[2, 'desc']]
+                "order": [[3, 'desc']]
             });
         } );
         </script>
