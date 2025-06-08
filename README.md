@@ -128,8 +128,8 @@ Updated with `python update.py` on 2025-06-08. Browse the [webpage](https://dani
 | 121 | [r/ItalyCalcio](https://www.reddit.com/r/ItalyCalcio/) | [879](https://subredditstats.com/r/ItalyCalcio) | 2017-03-30 | [Questo sub fa parte di /r/ItalyNetwork](/r/italyn |
 | 122 | [r/gdr](https://www.reddit.com/r/gdr/) | [867](https://subredditstats.com/r/gdr) | 2013-02-17 | #Welcome! Benvenuti!  ###About "Giochi di ruolo" m |
 | 123 | [r/Abruzzo](https://www.reddit.com/r/Abruzzo/) | [799](https://subredditstats.com/r/Abruzzo) | 2013-04-08 |  |
-| 124 | [r/BitcoinItalia](https://www.reddit.com/r/BitcoinItalia/) | [776](https://subredditstats.com/r/BitcoinItalia) | 2013-11-24 |  |
-| 125 | [r/Friuli](https://www.reddit.com/r/Friuli/) | [776](https://subredditstats.com/r/Friuli) | 2012-08-14 | Finché c'è frico c'è speranza. |
+| 124 | [r/Friuli](https://www.reddit.com/r/Friuli/) | [776](https://subredditstats.com/r/Friuli) | 2012-08-14 | Finché c'è frico c'è speranza. |
+| 125 | [r/BitcoinItalia](https://www.reddit.com/r/BitcoinItalia/) | [776](https://subredditstats.com/r/BitcoinItalia) | 2013-11-24 |  |
 | 126 | [r/DomandeDaReddit](https://www.reddit.com/r/DomandeDaReddit/) | [742](https://subredditstats.com/r/DomandeDaReddit) | 2021-03-09 | Un subreddit italiano spirato a /r/AskReddit dove  |
 | 127 | [r/CityOfCommentsITA](https://www.reddit.com/r/CityOfCommentsITA/) | [710](https://subredditstats.com/r/CityOfCommentsITA) | 2020-08-07 | su reddit creato per segnalare i commenti di reddi |
 | 128 | [r/Twitch_Italia](https://www.reddit.com/r/Twitch_Italia/) | [691](https://subredditstats.com/r/Twitch_Italia) | 2019-10-14 | Questa è il subreddit per la community italiana di |
@@ -140,8 +140,8 @@ Updated with `python update.py` on 2025-06-08. Browse the [webpage](https://dani
 | 133 | [r/FilosofiaItalia](https://www.reddit.com/r/FilosofiaItalia/) | [665](https://subredditstats.com/r/FilosofiaItalia) | 2022-10-18 |  |
 | 134 | [r/cattolicesimo](https://www.reddit.com/r/cattolicesimo/) | [664](https://subredditstats.com/r/cattolicesimo) | 2017-07-24 |  |
 | 135 | [r/MemeItaliane](https://www.reddit.com/r/MemeItaliane/) | [639](https://subredditstats.com/r/MemeItaliane) | 2019-05-15 | Le poche regole da rispettare sono: ~Non postare c |
-| 136 | [r/ItaliaStartups](https://www.reddit.com/r/ItaliaStartups/) | [638](https://subredditstats.com/r/ItaliaStartups) | 2024-05-28 |  |
-| 137 | [r/GenoaCFC](https://www.reddit.com/r/GenoaCFC/) | [638](https://subredditstats.com/r/GenoaCFC) | 2015-02-21 | #[Genoa](http://www.reddit.com/r/GenoaCFC/)  A sub |
+| 136 | [r/GenoaCFC](https://www.reddit.com/r/GenoaCFC/) | [638](https://subredditstats.com/r/GenoaCFC) | 2015-02-21 | #[Genoa](http://www.reddit.com/r/GenoaCFC/)  A sub |
+| 137 | [r/ItaliaStartups](https://www.reddit.com/r/ItaliaStartups/) | [638](https://subredditstats.com/r/ItaliaStartups) | 2024-05-28 |  |
 | 138 | [r/MangaItalia](https://www.reddit.com/r/MangaItalia/) | [619](https://subredditstats.com/r/MangaItalia) | 2020-09-20 | Un subreddit per tutti gli appassionati di manga i |
 | 139 | [r/Breaking_Italy](https://www.reddit.com/r/Breaking_Italy/) | [618](https://subredditstats.com/r/Breaking_Italy) | 2015-03-12 | **[Breaking Italy](https://www.youtube.com/user/br |
 | 140 | [r/FisicaItaly](https://www.reddit.com/r/FisicaItaly/) | [615](https://subredditstats.com/r/FisicaItaly) | 2022-08-01 |  |
@@ -167,30 +167,36 @@ Updated with `python update.py` on 2025-06-08. Browse the [webpage](https://dani
 | 160 | [r/ItalyProfumi](https://www.reddit.com/r/ItalyProfumi/) | [412](https://subredditstats.com/r/ItalyProfumi) | 2024-10-24 | La comunità italiana dei profumi e delle fragranze |
 | 161 | [r/Poesie_italia](https://www.reddit.com/r/Poesie_italia/) | [400](https://subredditstats.com/r/Poesie_italia) | 2020-04-16 | Hello there! This is an Italian community where to |
 | 162 | [r/askanitalian](https://www.reddit.com/r/askanitalian/) | [395](https://subredditstats.com/r/askanitalian) | 2017-03-08 |  |
-| 163 | [r/SerieB](https://www.reddit.com/r/SerieB/) | [384](https://subredditstats.com/r/SerieB) | 2021-07-31 |  |
-| 164 | [r/MostroDiFirenze](https://www.reddit.com/r/MostroDiFirenze/) | [365](https://subredditstats.com/r/MostroDiFirenze) | 2020-03-26 | Discussioni sul Mostro di Firenze |
-| 165 | [r/CagliariFC](https://www.reddit.com/r/CagliariFC/) | [362](https://subredditstats.com/r/CagliariFC) | 2017-05-11 | Forza Casteddu |
-| 166 | [r/ItaliaPolitica](https://www.reddit.com/r/ItaliaPolitica/) | [347](https://subredditstats.com/r/ItaliaPolitica) | 2020-08-22 | La prima community per discutere della Politica It |
-| 167 | [r/Liguria](https://www.reddit.com/r/Liguria/) | [271](https://subredditstats.com/r/Liguria) | 2013-06-23 |  |
-| 168 | [r/Trento](https://www.reddit.com/r/Trento/) | [259](https://subredditstats.com/r/Trento) | 2022-04-15 |  |
-| 169 | [r/Marche](https://www.reddit.com/r/Marche/) | [254](https://subredditstats.com/r/Marche) | 2021-09-03 |  |
-| 170 | [r/Cantautorato](https://www.reddit.com/r/Cantautorato/) | [240](https://subredditstats.com/r/Cantautorato) | 2019-08-23 |  |
-| 171 | [r/Perugia](https://www.reddit.com/r/Perugia/) | [232](https://subredditstats.com/r/Perugia) | 2010-05-14 |  |
-| 172 | [r/Reddit_Italia](https://www.reddit.com/r/Reddit_Italia/) | [224](https://subredditstats.com/r/Reddit_Italia) | 2022-03-25 |  |
-| 173 | [r/Trentino_alto_Adige](https://www.reddit.com/r/Trentino_alto_Adige/) | [212](https://subredditstats.com/r/Trentino_alto_Adige) | 2016-08-31 | Se vuoi partecipare alla gestione del subreddit ma |
-| 174 | [r/emilia](https://www.reddit.com/r/emilia/) | [203](https://subredditstats.com/r/emilia) | 2015-04-05 |  |
-| 175 | [r/hmmITA](https://www.reddit.com/r/hmmITA/) | [179](https://subredditstats.com/r/hmmITA) | 2020-11-01 | il subreddit italiano di cose che fanno dire hmm |
-| 176 | [r/figuredimerd](https://www.reddit.com/r/figuredimerd/) | [157](https://subredditstats.com/r/figuredimerd) | 2021-04-10 | si postano tutte le figure di merda di reddit ital |
-| 177 | [r/Umbria](https://www.reddit.com/r/Umbria/) | [154](https://subredditstats.com/r/Umbria) | 2022-01-06 |  |
-| 178 | [r/Basilicata](https://www.reddit.com/r/Basilicata/) | [135](https://subredditstats.com/r/Basilicata) | 2013-06-23 | Basilicata |
-| 179 | [r/italysteam](https://www.reddit.com/r/italysteam/) | [132](https://subredditstats.com/r/italysteam) | 2014-04-25 | scemo chi legge la sidebar  http://steamcommunity. |
-| 180 | [r/CarmeloBene](https://www.reddit.com/r/CarmeloBene/) | [123](https://subredditstats.com/r/CarmeloBene) | 2020-10-05 | "Io ignoro. Io sono la mia s'ignora. Sono s'ignora |
-| 181 | [r/CineItalia](https://www.reddit.com/r/CineItalia/) | [116](https://subredditstats.com/r/CineItalia) | 2017-04-11 | "A differenza di tutte le altre forme d’arte, il c |
-| 182 | [r/Foggia](https://www.reddit.com/r/Foggia/) | [106](https://subredditstats.com/r/Foggia) | 2020-07-18 | Un subreddit per la città di Foggia. Per richieder |
-| 183 | [r/TF2Italia](https://www.reddit.com/r/TF2Italia/) | [98](https://subredditstats.com/r/TF2Italia) | 2018-01-12 | Subreddit a disposizione della Community italiana  |
-| 184 | [r/CityOfMusicITA](https://www.reddit.com/r/CityOfMusicITA/) | [97](https://subredditstats.com/r/CityOfMusicITA) | 2021-05-23 | Ecco qua il subreddit ufficiale di condivisione di |
-| 185 | [r/memesItaMC](https://www.reddit.com/r/memesItaMC/) | [83](https://subredditstats.com/r/memesItaMC) | 2020-10-18 | Postate qui meme su Minecraft, il miglior gioco di |
-| 186 | [r/Molise](https://www.reddit.com/r/Molise/) | [47](https://subredditstats.com/r/Molise) | 2022-01-02 |  |
-| 187 | [r/tuttosport](https://www.reddit.com/r/tuttosport/) | [44](https://subredditstats.com/r/tuttosport) | 2020-12-09 | ciao, se siete dei patiti di ogni sport o anche di |
-| 188 | [r/MarzulloFanClub](https://www.reddit.com/r/MarzulloFanClub/) | [20](https://subredditstats.com/r/MarzulloFanClub) | 2020-10-08 | E' notte alta e sono sveglio, sei sempre tu il mio |
-| 189 | [r/Aosta](https://www.reddit.com/r/Aosta/) | [16](https://subredditstats.com/r/Aosta) | 2021-11-29 | aosta |
+| 163 | [r/Treviso](https://www.reddit.com/r/Treviso/) | [390](https://subredditstats.com/r/Treviso) | 2015-05-10 |  |
+| 164 | [r/SerieB](https://www.reddit.com/r/SerieB/) | [384](https://subredditstats.com/r/SerieB) | 2021-07-31 |  |
+| 165 | [r/MostroDiFirenze](https://www.reddit.com/r/MostroDiFirenze/) | [365](https://subredditstats.com/r/MostroDiFirenze) | 2020-03-26 | Discussioni sul Mostro di Firenze |
+| 166 | [r/CagliariFC](https://www.reddit.com/r/CagliariFC/) | [362](https://subredditstats.com/r/CagliariFC) | 2017-05-11 | Forza Casteddu |
+| 167 | [r/ItaliaPolitica](https://www.reddit.com/r/ItaliaPolitica/) | [347](https://subredditstats.com/r/ItaliaPolitica) | 2020-08-22 | La prima community per discutere della Politica It |
+| 168 | [r/ADO_Italy](https://www.reddit.com/r/ADO_Italy/) | [345](https://subredditstats.com/r/ADO_Italy) | 2024-10-10 | Un subreddit dedicato ad Ado, la talentuosa cantan |
+| 169 | [r/Liguria](https://www.reddit.com/r/Liguria/) | [271](https://subredditstats.com/r/Liguria) | 2013-06-23 |  |
+| 170 | [r/Trento](https://www.reddit.com/r/Trento/) | [259](https://subredditstats.com/r/Trento) | 2022-04-15 |  |
+| 171 | [r/Marche](https://www.reddit.com/r/Marche/) | [254](https://subredditstats.com/r/Marche) | 2021-09-03 |  |
+| 172 | [r/Cantautorato](https://www.reddit.com/r/Cantautorato/) | [240](https://subredditstats.com/r/Cantautorato) | 2019-08-23 |  |
+| 173 | [r/Perugia](https://www.reddit.com/r/Perugia/) | [232](https://subredditstats.com/r/Perugia) | 2010-05-14 |  |
+| 174 | [r/Reddit_Italia](https://www.reddit.com/r/Reddit_Italia/) | [224](https://subredditstats.com/r/Reddit_Italia) | 2022-03-25 |  |
+| 175 | [r/Trentino_alto_Adige](https://www.reddit.com/r/Trentino_alto_Adige/) | [212](https://subredditstats.com/r/Trentino_alto_Adige) | 2016-08-31 | Se vuoi partecipare alla gestione del subreddit ma |
+| 176 | [r/emilia](https://www.reddit.com/r/emilia/) | [203](https://subredditstats.com/r/emilia) | 2015-04-05 |  |
+| 177 | [r/hmmITA](https://www.reddit.com/r/hmmITA/) | [179](https://subredditstats.com/r/hmmITA) | 2020-11-01 | il subreddit italiano di cose che fanno dire hmm |
+| 178 | [r/figuredimerd](https://www.reddit.com/r/figuredimerd/) | [157](https://subredditstats.com/r/figuredimerd) | 2021-04-10 | si postano tutte le figure di merda di reddit ital |
+| 179 | [r/Umbria](https://www.reddit.com/r/Umbria/) | [154](https://subredditstats.com/r/Umbria) | 2022-01-06 |  |
+| 180 | [r/epifania_2024](https://www.reddit.com/r/epifania_2024/) | [144](https://subredditstats.com/r/epifania_2024) | 2024-01-08 |  |
+| 181 | [r/Basilicata](https://www.reddit.com/r/Basilicata/) | [135](https://subredditstats.com/r/Basilicata) | 2013-06-23 | Basilicata |
+| 182 | [r/italysteam](https://www.reddit.com/r/italysteam/) | [132](https://subredditstats.com/r/italysteam) | 2014-04-25 | scemo chi legge la sidebar  http://steamcommunity. |
+| 183 | [r/CarmeloBene](https://www.reddit.com/r/CarmeloBene/) | [123](https://subredditstats.com/r/CarmeloBene) | 2020-10-05 | "Io ignoro. Io sono la mia s'ignora. Sono s'ignora |
+| 184 | [r/CineItalia](https://www.reddit.com/r/CineItalia/) | [116](https://subredditstats.com/r/CineItalia) | 2017-04-11 | "A differenza di tutte le altre forme d’arte, il c |
+| 185 | [r/Foggia](https://www.reddit.com/r/Foggia/) | [106](https://subredditstats.com/r/Foggia) | 2020-07-18 | Un subreddit per la città di Foggia. Per richieder |
+| 186 | [r/TF2Italia](https://www.reddit.com/r/TF2Italia/) | [98](https://subredditstats.com/r/TF2Italia) | 2018-01-12 | Subreddit a disposizione della Community italiana  |
+| 187 | [r/CityOfMusicITA](https://www.reddit.com/r/CityOfMusicITA/) | [97](https://subredditstats.com/r/CityOfMusicITA) | 2021-05-23 | Ecco qua il subreddit ufficiale di condivisione di |
+| 188 | [r/ancona](https://www.reddit.com/r/ancona/) | [95](https://subredditstats.com/r/ancona) | 2013-04-09 | [Ancona](http://en.wikipedia.org/wiki/Ancona) |
+| 189 | [r/memesItaMC](https://www.reddit.com/r/memesItaMC/) | [83](https://subredditstats.com/r/memesItaMC) | 2020-10-18 | Postate qui meme su Minecraft, il miglior gioco di |
+| 190 | [r/salsicciaefriarielli](https://www.reddit.com/r/salsicciaefriarielli/) | [53](https://subredditstats.com/r/salsicciaefriarielli) | 2024-12-02 | Amanti delle pizze sottovalutate |
+| 191 | [r/Molise](https://www.reddit.com/r/Molise/) | [47](https://subredditstats.com/r/Molise) | 2022-01-02 |  |
+| 192 | [r/tuttosport](https://www.reddit.com/r/tuttosport/) | [44](https://subredditstats.com/r/tuttosport) | 2020-12-09 | ciao, se siete dei patiti di ogni sport o anche di |
+| 193 | [r/MarzulloFanClub](https://www.reddit.com/r/MarzulloFanClub/) | [20](https://subredditstats.com/r/MarzulloFanClub) | 2020-10-08 | E' notte alta e sono sveglio, sei sempre tu il mio |
+| 194 | [r/Campania](https://www.reddit.com/r/Campania/) | [19](https://subredditstats.com/r/Campania) | 2010-04-27 | Ingredienti:300 g di pomodoro, 400 g di paccheri,  |
+| 195 | [r/Aosta](https://www.reddit.com/r/Aosta/) | [16](https://subredditstats.com/r/Aosta) | 2021-11-29 | aosta |
