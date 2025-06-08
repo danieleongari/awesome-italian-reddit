@@ -1,7 +1,7 @@
 
 # Awesome Italian Reddit  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Updated with `python update.py` on 2025-06-07. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
+Updated with `python update.py` on 2025-06-08. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
 
 | Name | Subscribers | Date Creation | Description |
 |------|-------------|---------------|-------------|
@@ -36,6 +36,7 @@ Updated with `python update.py` on 2025-06-07. Browse the [webpage](https://dani
 | [r/oknotizie](https://www.reddit.com/r/oknotizie/) | [54172](https://subredditstats.com/r/oknotizie) | 2016-12-22 | [](/sidebar) [](http://www.guardatv.it/) [](https: |
 | [r/rimesegate](https://www.reddit.com/r/rimesegate/) | [51654](https://subredditstats.com/r/rimesegate) | 2019-05-03 | subreddit ufficiale della community di rimesegate! |
 | [r/Italian](https://www.reddit.com/r/Italian/) | [48520](https://subredditstats.com/r/Italian) | 2010-05-04 | No particular rule, follow the Reddit guidelines a |
+| [r/ViaggiITA](https://www.reddit.com/r/ViaggiITA/) | [45659](https://subredditstats.com/r/ViaggiITA) | 2024-06-26 | Il subreddit per Italiani per parlare di viaggi 🇮🇹 |
 | [r/commercialisti](https://www.reddit.com/r/commercialisti/) | [45424](https://subredditstats.com/r/commercialisti) | 2017-05-11 | Subreddit che vorrebbe essere serio ma non ce la f |
 | [r/psicologia](https://www.reddit.com/r/psicologia/) | [45079](https://subredditstats.com/r/psicologia) | 2011-12-29 |  |
 | [r/TeenagersITA](https://www.reddit.com/r/TeenagersITA/) | [31116](https://subredditstats.com/r/TeenagersITA) | 2020-10-08 | Per maggiori informazioni sulla comunità consultar |
@@ -43,17 +44,22 @@ Updated with `python update.py` on 2025-06-07. Browse the [webpage](https://dani
 | [r/brescia](https://www.reddit.com/r/brescia/) | [28571](https://subredditstats.com/r/brescia) | 2016-06-26 |  |
 | [r/avvocati](https://www.reddit.com/r/avvocati/) | [28478](https://subredditstats.com/r/avvocati) | 2019-10-04 | Sub dedicato a quei pochi che praticano la legge e |
 | [r/Italianscamads](https://www.reddit.com/r/Italianscamads/) | [21840](https://subredditstats.com/r/Italianscamads) | 2024-03-25 |  |
+| [r/PandabuyItalia](https://www.reddit.com/r/PandabuyItalia/) | [21377](https://subredditstats.com/r/PandabuyItalia) | 2023-02-22 |  |
 | [r/TrekkingItaly](https://www.reddit.com/r/TrekkingItaly/) | [20752](https://subredditstats.com/r/TrekkingItaly) | 2020-09-30 | r/TrekkingItaly è la community per gli appassionat |
 | [r/ItaliaMeme](https://www.reddit.com/r/ItaliaMeme/) | [17727](https://subredditstats.com/r/ItaliaMeme) | 2020-03-30 | Community per memes, immagini divertenti, battute  |
 | [r/xxItaly](https://www.reddit.com/r/xxItaly/) | [16920](https://subredditstats.com/r/xxItaly) | 2019-06-08 | **Benvenute e benvenuti alla community delle ragaz |
 | [r/Firenze](https://www.reddit.com/r/Firenze/) | [16660](https://subredditstats.com/r/Firenze) | 2012-01-30 | ######[Home](http://www.reddit.com#top) [hott'e](h |
 | [r/fumetti](https://www.reddit.com/r/fumetti/) | [15773](https://subredditstats.com/r/fumetti) | 2014-07-28 | In questo subreddit potete parlare di tutto ciò ch |
+| [r/italiancooking](https://www.reddit.com/r/italiancooking/) | [14658](https://subredditstats.com/r/italiancooking) | 2011-11-29 | r/italiancooking is the answer to those of us who  |
+| [r/ItalyFitness](https://www.reddit.com/r/ItalyFitness/) | [14145](https://subredditstats.com/r/ItalyFitness) | 2024-02-13 |  |
 | [r/hiphopitaly](https://www.reddit.com/r/hiphopitaly/) | [13424](https://subredditstats.com/r/hiphopitaly) | 2013-06-04 | [] (/sidebar)  img by [Lo Swagghetto](https://www. |
 | [r/istrutturare](https://www.reddit.com/r/istrutturare/) | [12460](https://subredditstats.com/r/istrutturare) | 2023-08-21 |  |
+| [r/learnitalian](https://www.reddit.com/r/learnitalian/) | [11462](https://subredditstats.com/r/learnitalian) | 2012-02-10 | Ask questions about specifics of the Italian langu |
 | [r/QuandoCeraloStereo](https://www.reddit.com/r/QuandoCeraloStereo/) | [11079](https://subredditstats.com/r/QuandoCeraloStereo) | 2024-08-08 |  |
 | [r/Psicologia_Italia](https://www.reddit.com/r/Psicologia_Italia/) | [10998](https://subredditstats.com/r/Psicologia_Italia) | 2020-05-01 | Il Primo Subreddit in Italiano dedicato alla Psico |
 | [r/giardinaggioITA](https://www.reddit.com/r/giardinaggioITA/) | [10914](https://subredditstats.com/r/giardinaggioITA) | 2022-03-16 |  |
 | [r/politicaITA](https://www.reddit.com/r/politicaITA/) | [10389](https://subredditstats.com/r/politicaITA) | 2014-01-26 | **Due spettri si aggirano per il pianeta: gli spet |
+| [r/ItalyExpat](https://www.reddit.com/r/ItalyExpat/) | [9991](https://subredditstats.com/r/ItalyExpat) | 2016-03-31 | Welcome!  This is a community for expats who live  |
 | [r/AmericansInItaly](https://www.reddit.com/r/AmericansInItaly/) | [9537](https://subredditstats.com/r/AmericansInItaly) | 2021-08-25 |  |
 | [r/Trieste](https://www.reddit.com/r/Trieste/) | [9373](https://subredditstats.com/r/Trieste) | 2013-02-27 | Trieste (/triːˈɛst/; Italian pronunciation: [triˈɛ |
 | [r/Sicilia](https://www.reddit.com/r/Sicilia/) | [8444](https://subredditstats.com/r/Sicilia) | 2012-04-03 | This is a subreddit to everything related to Sicil |
@@ -63,23 +69,32 @@ Updated with `python update.py` on 2025-06-07. Browse the [webpage](https://dani
 | [r/Genova](https://www.reddit.com/r/Genova/) | [7200](https://subredditstats.com/r/Genova) | 2011-10-25 | &gt; *Umbre de muri muri de mainé* &gt; &gt; *dund |
 | [r/Bari](https://www.reddit.com/r/Bari/) | [6681](https://subredditstats.com/r/Bari) | 2013-05-14 | **Benvenuto nella comunita Barese di reddit!**  *B |
 | [r/Sardegna](https://www.reddit.com/r/Sardegna/) | [6335](https://subredditstats.com/r/Sardegna) | 2014-02-18 |  |
+| [r/LearningItalian](https://www.reddit.com/r/LearningItalian/) | [5967](https://subredditstats.com/r/LearningItalian) | 2017-04-20 |  |
 | [r/lazanzara](https://www.reddit.com/r/lazanzara/) | [5847](https://subredditstats.com/r/lazanzara) | 2021-10-22 |  |
 | [r/Coinquilini_di_merda](https://www.reddit.com/r/Coinquilini_di_merda/) | [5618](https://subredditstats.com/r/Coinquilini_di_merda) | 2024-07-24 | Che il coinquilino di merda sia tu o il tuo fedele |
 | [r/MemeTemplatesIta](https://www.reddit.com/r/MemeTemplatesIta/) | [5507](https://subredditstats.com/r/MemeTemplatesIta) | 2020-07-04 | ... |
 | [r/Catania](https://www.reddit.com/r/Catania/) | [5369](https://subredditstats.com/r/Catania) | 2015-07-25 |  |
 | [r/PA_Italia](https://www.reddit.com/r/PA_Italia/) | [5311](https://subredditstats.com/r/PA_Italia) | 2023-11-24 |  |
+| [r/blackhumoritalia](https://www.reddit.com/r/blackhumoritalia/) | [5310](https://subredditstats.com/r/blackhumoritalia) | 2020-02-28 | Cose blasfeme e dissacranti roba cringe e razzista |
 | [r/ItalyTourism](https://www.reddit.com/r/ItalyTourism/) | [5122](https://subredditstats.com/r/ItalyTourism) | 2012-09-29 | ##ItalyTourism[](/ItalyTourism)  Discover and ask  |
 | [r/domandaonesta](https://www.reddit.com/r/domandaonesta/) | [5047](https://subredditstats.com/r/domandaonesta) | 2025-03-28 | L’unica domanda stupida è quella che non fai. Qui  |
 | [r/ItalyHardware](https://www.reddit.com/r/ItalyHardware/) | [5046](https://subredditstats.com/r/ItalyHardware) | 2024-07-04 |  |
+| [r/FascistItalyPhotos](https://www.reddit.com/r/FascistItalyPhotos/) | [4888](https://subredditstats.com/r/FascistItalyPhotos) | 2022-12-29 |  |
 | [r/cazzeggio](https://www.reddit.com/r/cazzeggio/) | [4423](https://subredditstats.com/r/cazzeggio) | 2015-01-08 | Se non avete voglia di lavorare o non sapete come  |
 | [r/OnePiece_it](https://www.reddit.com/r/OnePiece_it/) | [3910](https://subredditstats.com/r/OnePiece_it) | 2018-05-17 |  |
 | [r/camicibianchi](https://www.reddit.com/r/camicibianchi/) | [3857](https://subredditstats.com/r/camicibianchi) | 2024-03-01 |  |
 | [r/polinetwork](https://www.reddit.com/r/polinetwork/) | [3830](https://subredditstats.com/r/polinetwork) | 2018-09-25 | Subreddit del Politecnico di Milano! ( polimi ) Il |
 | [r/italyLGBT](https://www.reddit.com/r/italyLGBT/) | [3727](https://subredditstats.com/r/italyLGBT) | 2013-08-23 | Questo subreddit è per tutti gli italiani (in Ital |
+| [r/FotografiaItalia](https://www.reddit.com/r/FotografiaItalia/) | [3671](https://subredditstats.com/r/FotografiaItalia) | 2018-07-20 | Sentitevi liberi di scrivere al moderatore (/Ziomi |
 | [r/Lazio](https://www.reddit.com/r/Lazio/) | [3493](https://subredditstats.com/r/Lazio) | 2012-03-05 | A subreddit dedicated to the   S.S. Lazio ===  Off |
 | [r/Erba](https://www.reddit.com/r/Erba/) | [3262](https://subredditstats.com/r/Erba) | 2011-03-07 | Ecco la comunità italiana r/erba!  Il primo subred |
 | [r/italianmusic](https://www.reddit.com/r/italianmusic/) | [3251](https://subredditstats.com/r/italianmusic) | 2013-01-10 | **All you Italian music lovers out there, submit a |
+| [r/italianamerican](https://www.reddit.com/r/italianamerican/) | [3134](https://subredditstats.com/r/italianamerican) | 2014-02-25 | *** ####It's in your blood, now show some love, th |
+| [r/ItalianCitizenship](https://www.reddit.com/r/ItalianCitizenship/) | [3126](https://subredditstats.com/r/ItalianCitizenship) | 2019-04-25 | A place to find information and assistance in the  |
 | [r/storia](https://www.reddit.com/r/storia/) | [2897](https://subredditstats.com/r/storia) | 2015-06-12 | Discussioni e approfondimenti sulla Storia   [Altr |
+| [r/DuolingoItalian](https://www.reddit.com/r/DuolingoItalian/) | [2869](https://subredditstats.com/r/DuolingoItalian) | 2014-02-03 |  |
+| [r/Italianhistory](https://www.reddit.com/r/Italianhistory/) | [2765](https://subredditstats.com/r/Italianhistory) | 2012-07-09 | A place to learn about and discuss Italian history |
+| [r/Formula1Italia](https://www.reddit.com/r/Formula1Italia/) | [2468](https://subredditstats.com/r/Formula1Italia) | 2021-05-01 | Stanchi di andare nel subreddit internazionale del |
 | [r/ItaliaRossa](https://www.reddit.com/r/ItaliaRossa/) | [2256](https://subredditstats.com/r/ItaliaRossa) | 2021-03-03 | Benvenuti su r/ItaliaRossa: una community che ha c |
 | [r/Best_memerITA](https://www.reddit.com/r/Best_memerITA/) | [2122](https://subredditstats.com/r/Best_memerITA) | 2020-08-26 | community dei best memer italiani |
 | [r/Palermo](https://www.reddit.com/r/Palermo/) | [1397](https://subredditstats.com/r/Palermo) | 2011-11-28 | [](#PalermoSidebarImage) A subreddit dedicated to  |
@@ -94,22 +109,31 @@ Updated with `python update.py` on 2025-06-07. Browse the [webpage](https://dani
 | [r/ItalyCalcio](https://www.reddit.com/r/ItalyCalcio/) | [879](https://subredditstats.com/r/ItalyCalcio) | 2017-03-30 | [Questo sub fa parte di /r/ItalyNetwork](/r/italyn |
 | [r/gdr](https://www.reddit.com/r/gdr/) | [867](https://subredditstats.com/r/gdr) | 2013-02-17 | #Welcome! Benvenuti!  ###About "Giochi di ruolo" m |
 | [r/Abruzzo](https://www.reddit.com/r/Abruzzo/) | [799](https://subredditstats.com/r/Abruzzo) | 2013-04-08 |  |
-| [r/BitcoinItalia](https://www.reddit.com/r/BitcoinItalia/) | [776](https://subredditstats.com/r/BitcoinItalia) | 2013-11-24 |  |
 | [r/Friuli](https://www.reddit.com/r/Friuli/) | [776](https://subredditstats.com/r/Friuli) | 2012-08-14 | Finché c'è frico c'è speranza. |
+| [r/BitcoinItalia](https://www.reddit.com/r/BitcoinItalia/) | [776](https://subredditstats.com/r/BitcoinItalia) | 2013-11-24 |  |
 | [r/DomandeDaReddit](https://www.reddit.com/r/DomandeDaReddit/) | [742](https://subredditstats.com/r/DomandeDaReddit) | 2021-03-09 | Un subreddit italiano spirato a /r/AskReddit dove  |
 | [r/CityOfCommentsITA](https://www.reddit.com/r/CityOfCommentsITA/) | [710](https://subredditstats.com/r/CityOfCommentsITA) | 2020-08-07 | su reddit creato per segnalare i commenti di reddi |
 | [r/Twitch_Italia](https://www.reddit.com/r/Twitch_Italia/) | [691](https://subredditstats.com/r/Twitch_Italia) | 2019-10-14 | Questa è il subreddit per la community italiana di |
+| [r/LGBTItaly](https://www.reddit.com/r/LGBTItaly/) | [684](https://subredditstats.com/r/LGBTItaly) | 2020-08-02 | Un posto dove condividere storie riguardo la propr |
+| [r/Ithadtobeitaly](https://www.reddit.com/r/Ithadtobeitaly/) | [683](https://subredditstats.com/r/Ithadtobeitaly) | 2019-09-08 |  |
 | [r/innovazione](https://www.reddit.com/r/innovazione/) | [670](https://subredditstats.com/r/innovazione) | 2019-03-27 | Parliamo di innovazione, tecnologia e di che impat |
 | [r/FilosofiaItalia](https://www.reddit.com/r/FilosofiaItalia/) | [665](https://subredditstats.com/r/FilosofiaItalia) | 2022-10-18 |  |
 | [r/cattolicesimo](https://www.reddit.com/r/cattolicesimo/) | [664](https://subredditstats.com/r/cattolicesimo) | 2017-07-24 |  |
+| [r/ItaliaStartups](https://www.reddit.com/r/ItaliaStartups/) | [638](https://subredditstats.com/r/ItaliaStartups) | 2024-05-28 |  |
 | [r/MangaItalia](https://www.reddit.com/r/MangaItalia/) | [619](https://subredditstats.com/r/MangaItalia) | 2020-09-20 | Un subreddit per tutti gli appassionati di manga i |
+| [r/Breaking_Italy](https://www.reddit.com/r/Breaking_Italy/) | [618](https://subredditstats.com/r/Breaking_Italy) | 2015-03-12 | **[Breaking Italy](https://www.youtube.com/user/br |
+| [r/FisicaItaly](https://www.reddit.com/r/FisicaItaly/) | [615](https://subredditstats.com/r/FisicaItaly) | 2022-08-01 |  |
 | [r/Yunisorrisiecanzoni](https://www.reddit.com/r/Yunisorrisiecanzoni/) | [608](https://subredditstats.com/r/Yunisorrisiecanzoni) | 2025-04-11 | Musica, cultura pop e show biz dall'Italia e dal m |
 | [r/MinecraftITA](https://www.reddit.com/r/MinecraftITA/) | [596](https://subredditstats.com/r/MinecraftITA) | 2020-03-18 | VIVA MINECRAFT |
+| [r/EveryMapOfItaly](https://www.reddit.com/r/EveryMapOfItaly/) | [582](https://subredditstats.com/r/EveryMapOfItaly) | 2024-02-08 |  |
 | [r/Barbecue_Italia](https://www.reddit.com/r/Barbecue_Italia/) | [554](https://subredditstats.com/r/Barbecue_Italia) | 2022-01-21 |  |
 | [r/Cina](https://www.reddit.com/r/Cina/) | [546](https://subredditstats.com/r/Cina) | 2012-10-05 | Benvenuti in questo sub dedicato alla Cina e alla  |
 | [r/Lombardia](https://www.reddit.com/r/Lombardia/) | [521](https://subredditstats.com/r/Lombardia) | 2016-08-31 | Se vuoi partecipare alla gestione del subreddit ma |
+| [r/wallstreetbetsitalia](https://www.reddit.com/r/wallstreetbetsitalia/) | [510](https://subredditstats.com/r/wallstreetbetsitalia) | 2021-01-28 | Gruppo italiano di wallstreetbets |
 | [r/Toscana](https://www.reddit.com/r/Toscana/) | [507](https://subredditstats.com/r/Toscana) | 2010-09-06 | Tutto sulla Toscana |
+| [r/specialtyCoffeeItaly](https://www.reddit.com/r/specialtyCoffeeItaly/) | [490](https://subredditstats.com/r/specialtyCoffeeItaly) | 2023-05-23 |  |
 | [r/Piemonte](https://www.reddit.com/r/Piemonte/) | [483](https://subredditstats.com/r/Piemonte) | 2016-08-31 | Se vuoi partecipare alla gestione del subreddit ma |
+| [r/Psico_aiuto_Italia](https://www.reddit.com/r/Psico_aiuto_Italia/) | [477](https://subredditstats.com/r/Psico_aiuto_Italia) | 2024-03-03 |  |
 | [r/italiantheory](https://www.reddit.com/r/italiantheory/) | [463](https://subredditstats.com/r/italiantheory) | 2014-02-06 | Why Italian theory? What is Italian thought and wh |
 | [r/SecurityIT](https://www.reddit.com/r/SecurityIT/) | [451](https://subredditstats.com/r/SecurityIT) | 2020-07-14 | Parliamo di IT security in ITaliano. |
 | [r/ItalyProfumi](https://www.reddit.com/r/ItalyProfumi/) | [412](https://subredditstats.com/r/ItalyProfumi) | 2024-10-24 | La comunità italiana dei profumi e delle fragranze |
