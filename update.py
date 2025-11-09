@@ -1,10 +1,38 @@
 import sys
 import pandas as pd
 import requests
+import argparse
 from fake_useragent import UserAgent
 import time
 
-CUT_DESCRIPTION = 50
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Update the information of Italian subreddits, given a CSV file containing subreddit names.")
+    parser.add_argument(
+        "-on",
+        "--only-new",
+        action="store_true",
+        help="Only scrape new subreddits",
+    )
+    parser.add_argument(
+        "-ss",
+        "--skip-scraping",
+        action="store_true",
+        help="Skip scraping of subreddits",
+    )
+    parser.add_argument(
+        "-cd",
+        "--cut-description",
+        type=int,
+        default=50,
+        help="Maximum length of description (default: 50)",
+    )
+    return parser.parse_args()
+
+
+args = parse_args()
+
+CUT_DESCRIPTION = args.cut_description
 
 
 def get_json(subreddit, verbose=False):
@@ -30,12 +58,10 @@ assert df[
 ].is_unique, f"Subreddits names must be unique, delete: {df['name'][df['name'].duplicated()].tolist()}"
 
 # If the argument --skip-scraping is passed, skip scraping the subreddits
-if "--skip-scraping" not in sys.argv and "-ss" not in sys.argv:
+if not args.skip_scraping:
     for i, row in df.iterrows():
         # if specified, skip already scraped subreddits
-        if ("--only-new" in sys.argv or "-on" in sys.argv) and pd.notnull(
-            row["created_utc"]
-        ):
+        if args.only_new and pd.notnull(row["created_utc"]):
             continue
 
         print(f"{i}/{len(df)} - reading r/{row['name']}")
