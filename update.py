@@ -83,8 +83,8 @@ if not args.skip_scraping:
                 data["data"]["created_utc"], unit="s"
             )
 
-        if "subscribers" in data["data"]:
-            df.loc[i, "subscribers"] = data["data"]["subscribers"]
+        if "subs" in data["data"]:
+            df.loc[i, "subs"] = data["data"]["subs"]
 
         if "description" in data["data"]:
             df.loc[i, "description"] = data["data"]["description"][
@@ -100,10 +100,10 @@ df.to_csv("subreddits.csv", index=False)
 
 df_readme = (
     df.query("reason.isna()", engine="python")
-    .dropna(subset=["subscribers", "created_utc"])
-    .sort_values("subscribers", ascending=False)
+    .dropna(subset=["subs", "created_utc"])
+    .sort_values("subs", ascending=False)
     .reset_index(drop=True)
-    .astype({"subscribers": int})
+    .astype({"subs": int})
     .fillna("")
 )
 
@@ -116,13 +116,13 @@ with open("README.md", "w") as f:
 
 Updated with `python update.py` on {today_date}. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
 
-| N | Name | Subscribers | Date Creation | Description |
-|---|------|-------------|---------------|-------------|
+| N | Name | Subs | Date Creation | Description |
+|---|------|------|---------------|-------------|
 """
     )
     for i, row in df_readme.iterrows():
         name = row["name"]
-        nsubs = int(row["subscribers"]) if not pd.isnull(row["subscribers"]) else ""
+        nsubs = int(row["subs"]) if not pd.isnull(row["subs"]) else ""
         date = row["created_utc"].date() if not pd.isnull(row["created_utc"]) else ""
         description = row["description"] if not pd.isnull(row["description"]) else ""
         f.write(
@@ -140,29 +140,23 @@ df_html = (
     )
     .assign(**{"Date Creation": lambda x: x["created_utc"].dt.strftime("%Y-%m-%d")})
     .assign(
-        Stats=lambda x: x["name"].apply(
-            lambda x: f'<a href="https://subredditstats.com/r/{x}">&#9827;</a>'
-        )
-    )
-    .assign(
         N=lambda x: x.index + 1
     )
     .rename(
         columns={
-            "subscribers": "Subscribers",
+            "subs": "Subs",
             "description": "Description",
-            "tag": "TAG",
+            "tag": "Tag",
         }
     )
     [
         [
             "N", # 1
             "Subreddit",  # 2
-            "TAG",  # 3
-            "Subscribers",  # 4
+            "Tag",  # 3
+            "Subs",  # 4
             "Date Creation",  # 5
             "Description",  # 6
-            "Stats",  # 7
         ]
     ]
 )
@@ -188,7 +182,7 @@ with open("docs/index.html", "w") as f:
             #table_id td:nth-child(4) {
                 text-align: right;
             }
-            #table_id td:nth-child(5), #table_id td:nth-child(7){
+            #table_id td:nth-child(5){
                 text-align: center;
             }
         </style>

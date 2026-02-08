@@ -1,10 +1,10 @@
 
 # Awesome Italian Reddit  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-Updated with `python update.py` on 2026-01-18. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
+Updated with `python update.py` on 2026-02-08. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
 
-| N | Name | Subscribers | Date Creation | Description |
-|---|------|-------------|---------------|-------------|
+| N | Name | Subs | Date Creation | Description |
+|---|------|------|---------------|-------------|
 | 1 | [r/italy](https://www.reddit.com/r/italy/) | [1101624](https://subredditstats.com/r/italy) | 2008-07-25 | &gt;[All](https://reddit.com/r/italy "Every thread |
 | 2 | [r/Italia](https://www.reddit.com/r/Italia/) | [596924](https://subredditstats.com/r/Italia) | 2009-11-03 | L'Italia su reddit  Leggi [la wiki](https://www.re |
 | 3 | [r/seriea](https://www.reddit.com/r/seriea/) | [515147](https://subredditstats.com/r/seriea) | 2010-08-01 | Welcome to /r/SerieA, reddit's home to the Italian |
