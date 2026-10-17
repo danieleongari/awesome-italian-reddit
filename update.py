@@ -1,217 +1,90 @@
-import sys
-import pandas as pd
-import requests
+"""Update the CSV and public directory through the official Devvit metadata reader."""
+
 import argparse
-from fake_useragent import UserAgent
-import time
+import csv
+import io
+import json
+from pathlib import Path
+import subprocess
+import tempfile
+
+from directory_updater.auth import sync_auth
+from directory_updater.dataset import read_csv, updated_dataset
+from directory_updater.devvit import prepare, refresh
+from directory_updater.render import render
 
 
-def parse_args():
-    parser = argparse.ArgumentParser(description="Update the information of Italian subreddits, given a CSV file containing subreddit names.")
-    parser.add_argument(
-        "-on",
-        "--only-new",
-        action="store_true",
-        help="Only scrape new subreddits",
-    )
-    parser.add_argument(
-        "-ss",
-        "--skip-scraping",
-        action="store_true",
-        help="Skip scraping of subreddits",
-    )
-    parser.add_argument(
-        "-cd",
-        "--cut-description",
-        type=int,
-        default=50,
-        help="Maximum length of description (default: 50)",
-    )
-    return parser.parse_args()
+ROOT = Path(__file__).resolve().parent
 
 
-args = parse_args()
-
-CUT_DESCRIPTION = args.cut_description
-
-
-def get_json(subreddit, verbose=False):
-    url = f"https://www.reddit.com/r/{subreddit}/about.json"
-    response = requests.get(url, headers={"User-Agent": UserAgent().random})
-    if verbose:
-        print(f"Status code: {response.status_code}")
-        print(f"Response content: {response.content}")
-    return response.json()
-
-
-df = (
-    pd.read_csv("subreddits.csv")
-    .assign(created_utc=(lambda x: pd.to_datetime(x["created_utc"])))
-    .sort_values(
-        by="name", key=lambda col: col.str.lower()
-    )  # sort by name, case insensitive
-    .reset_index(drop=True)
-)
-
-assert df[
-    "name"
-].is_unique, f"Subreddits names must be unique, delete: {df['name'][df['name'].duplicated()].tolist()}"
-
-# If the argument --skip-scraping is passed, skip scraping the subreddits
-if not args.skip_scraping:
-    for i, row in df.iterrows():
-        # if specified, skip already scraped subreddits
-        if args.only_new and pd.notnull(row["created_utc"]):
-            continue
-
-        print(f"{i}/{len(df)} - reading r/{row['name']}")
-
-        data = get_json(row["name"], verbose=False)
-
-        if "data" not in data:
-            if "reason" not in data:
-                raise ValueError(
-                    str(data)
-                )  # typical: {'message': 'Too Many Requests', 'error': 429}
-            df.loc[i, "reason"] = data["reason"]
-            print(" >>> Error:", df.loc[i, "reason"])
-            continue
-        df.loc[i, "reason"] = None
-
-        if "created_utc" in data["data"]:
-            df.loc[i, "created_utc"] = pd.to_datetime(
-                data["data"]["created_utc"], unit="s"
-            )
-
-        if "subs" in data["data"]:
-            df.loc[i, "subs"] = data["data"]["subs"]
-
-        if "description" in data["data"]:
-            df.loc[i, "description"] = data["data"]["description"][
-                :CUT_DESCRIPTION
-            ].replace("\n", " ")
-
-        time.sleep(10)  # avoid Too Many Requests
-
-df.to_csv("subreddits.csv", index=False)
+def write_directory(root, rows, fields=None):
+    # Render and stage every output before replacing any existing directory file.
+    readme, page = render(rows)
+    outputs = {"README.md": readme, "docs/index.html": page}
+    if fields is not None:
+        buffer = io.StringIO(newline="")
+        writer = csv.DictWriter(buffer, fieldnames=fields, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(rows)
+        outputs["subreddits.csv"] = buffer.getvalue()
+    with tempfile.TemporaryDirectory(prefix="directory-", dir=root) as temporary:
+        staged = Path(temporary)
+        for name, content in outputs.items():
+            source = staged / name
+            source.parent.mkdir(parents=True, exist_ok=True)
+            source.write_text(content, encoding="utf-8")
+        for name in outputs:
+            target = root / name
+            target.parent.mkdir(parents=True, exist_ok=True)
+            (staged / name).replace(target)
 
 
-# Generate Markdown @ README.md
-
-df_readme = (
-    df.query("reason.isna()", engine="python")
-    .dropna(subset=["subs", "created_utc"])
-    .sort_values("subs", ascending=False)
-    .reset_index(drop=True)
-    .astype({"subs": int})
-    .fillna("")
-)
-
-today_date = pd.Timestamp.now().strftime("%Y-%m-%d")
-
-with open("README.md", "w") as f:
-    f.write(
-        f"""
-# Awesome Italian Reddit  [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-
-Updated with `python update.py` on {today_date}. Browse the [webpage](https://danieleongari.github.io/awesome-italian-reddit/).
-
-| N | Name | Subs | Date Creation | Description |
-|---|------|------|---------------|-------------|
-"""
-    )
-    for i, row in df_readme.iterrows():
-        name = row["name"]
-        nsubs = int(row["subs"]) if not pd.isnull(row["subs"]) else ""
-        date = row["created_utc"].date() if not pd.isnull(row["created_utc"]) else ""
-        description = row["description"] if not pd.isnull(row["description"]) else ""
-        f.write(
-            f"| {i+1} | [r/{name}](https://www.reddit.com/r/{name}/) | [{nsubs}](https://subredditstats.com/r/{name}) | {date} | {description} |\n"
-        )
-
-# Generate HTML page @ docs/index.html
-
-df_html = (
-    df_readme
-    .assign(
-        Subreddit=lambda x: x["name"].apply(
-            lambda x: f'<a href="https://www.reddit.com/r/{x}/">r/{x}</a>'
-        )
-    )
-    .assign(**{"Date Creation": lambda x: x["created_utc"].dt.strftime("%Y-%m-%d")})
-    .assign(
-        N=lambda x: x.index + 1
-    )
-    .rename(
-        columns={
-            "subs": "Subs",
-            "description": "Description",
-            "tag": "Tag",
-        }
-    )
-    [
-        [
-            "N", # 1
-            "Subreddit",  # 2
-            "Tag",  # 3
-            "Subs",  # 4
-            "Date Creation",  # 5
-            "Description",  # 6
-        ]
-    ]
-)
+def main(argv=None, root=ROOT):
+    parser = argparse.ArgumentParser(description=__doc__)
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--render-only", action="store_true", help="Regenerate README and HTML without network access or CSV changes")
+    mode.add_argument("--from-log", type=Path, metavar="FILE", help="Import a completed Devvit JSON log instead of requesting new metadata")
+    mode.add_argument("--prepare", action="store_true", help="Validate CSV and generate the Devvit community list for builds/tests")
+    mode.add_argument("--sync-auth", action="store_true", help="Copy the current Devvit CLI login to the ignored .env file")
+    parser.add_argument("--dry-run", action="store_true", help="Retrieve/validate metadata without changing CSV, README or HTML")
+    parser.add_argument("--timeout", type=int, default=1800, help="Maximum metadata wait in seconds (default: 1800)")
+    args = parser.parse_args(argv)
+    if args.timeout <= 0:
+        parser.error("--timeout must be positive")
+    if args.dry_run and (args.render_only or args.prepare or args.sync_auth):
+        parser.error("--dry-run requires a live refresh or --from-log")
+    root = Path(root).resolve()
+    if args.sync_auth:
+        sync_auth(root)
+        print("DEVVIT_AUTH_TOKEN saved in .env (permissions 600). Never commit this file.")
+        return
+    if args.prepare:
+        print(f"Prepared {prepare(root)} communities from subreddits.csv.")
+        return
+    _, rows = read_csv(root / "subreddits.csv")
+    if args.render_only:
+        write_directory(root, rows)
+        print("README.md and docs/index.html regenerated from the CSV.")
+        return
+    original = (root / "subreddits.csv").read_bytes()
+    log = args.from_log or refresh(root, args.timeout)
+    fields, rows, summary = updated_dataset(log, root / "subreddits.csv")
+    # Validate rendering during previews too, before touching any public files.
+    render(rows)
+    if original != (root / "subreddits.csv").read_bytes():
+        raise ValueError("CSV changed during the refresh; rerun using the current list.")
+    if not args.dry_run:
+        write_directory(root, rows, fields)
+    summary["applied"] = not args.dry_run
+    cache = root / ".cache"
+    cache.mkdir(exist_ok=True)
+    report = json.dumps(summary, ensure_ascii=False, indent=2)
+    (cache / "update-report.json").write_text(report + "\n", encoding="utf-8")
+    print(report)
 
 
-with open("docs/index.html", "w") as f:
-    f.write(
-        """
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/jquery.dataTables.css">
-        <script type="text/javascript" charset="utf8" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-        <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.js"></script>
-        <style>
-            body {
-                max-width: 1000px;
-                margin: auto;
-            }
-            h1 {
-                text-align: center;
-            }
-            #table_id td:nth-child(4) {
-                text-align: right;
-            }
-            #table_id td:nth-child(5){
-                text-align: center;
-            }
-        </style>
-        <script type="text/javascript" charset="utf8">
-        $(document).ready( function () {
-            $('#table_id').DataTable({
-                "pageLength": """
-        + str(len(df_readme))
-        + """,
-                "info": false,
-                "paging": false,
-                "order": [[3, 'desc']]
-            });
-        } );
-        </script>
-    </head>
-    <body>
-        <h1>Awesome Italian SubReddits</h1>
-        <p><a href="https://github.com/danieleongari/awesome-italian-reddit">Link to GitHub script</a>,
-    """
-        + f"last update on {today_date}.</p>"
-    )
-
-    # Convert DataFrame to HTML table
-    f.write(df_html.to_html(index=False, table_id="table_id", escape=False))
-
-    f.write(
-        """
-    </body>
-    </html>
-    """
-    )
+if __name__ == "__main__":
+    try:
+        main()
+    except (ValueError, KeyError, OSError, subprocess.CalledProcessError, RuntimeError) as error:
+        raise SystemExit(f"Error: {error}") from None

@@ -1,3 +1,25 @@
-*.c
-.ruff_cache
+# Credentials and local Devvit state
 .env
+.env.*
+!.env.example
+.devvit/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.cache/
+.venv/
+
+# Installed dependencies and build metadata
+node_modules/
+*.tsbuildinfo
+
+# Local logs, macOS metadata and editor backups
+npm-debug.log*
+.metadata-refresh.jsonl
+.DS_Store
+._*
+*~
+*.swp
+*.swo

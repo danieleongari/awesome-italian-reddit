@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developers.reddit.com/schema/config-file.v1.json",
+  "name": "awesome-italian-subr",
+  "server": {},
+  "triggers": {
+    "onAppInstall": "/internal/start-refresh",
+    "onAppUpgrade": "/internal/start-refresh"
+  },
+  "dev": {
+    "subreddit": "awesome_italian_s_dev"
+  },
+  "permissions": {
+    "reddit": true
+  },
+  "scheduler": {
+    "tasks": {
+      "metadata-batch": {
+        "endpoint": "/internal/metadata-batch"
+      }
+    }
+  }
+}

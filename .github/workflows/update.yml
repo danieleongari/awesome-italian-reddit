@@ -1,35 +1,63 @@
-name: Update README
+name: Update subreddit directory
 
 on:
-  # schedule:
-  #   - cron: '0 0 * * *'  # This will run the workflow every day at midnight
-  workflow_dispatch:  # This allows the workflow to be run manually
+  workflow_dispatch:
+  schedule:
+    - cron: '0 7 1 1,7 *'
+  push:
+    branches: [master]
+    paths: [subreddits.csv]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: reddit-metadata-refresh
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
+    timeout-minutes: 40
     steps:
-    - name: Check out code
-      uses: actions/checkout@v2
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.10'
-
-    - name: Install dependencies
-      run: |
-        python -m pip install --upgrade pip
-        pip install -r requirements.txt
-
-    - name: Run update script
-      run: python update.py
-
-    - name: Commit and push if it changed
-      run: |
-        git diff
-        git config --global user.name 'GitHub Action'
-        git config --global user.email 'action@github.com'
-        git commit -am "Update README" || exit 0
-        git push
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+          cache: pip
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: devvit/.nvmrc
+          package-manager-cache: false
+      - name: Install dependencies
+        run: |
+          python -m pip install -r requirements.txt
+          npm ci --prefix devvit
+      - name: Validate the current list and reader
+        run: |
+          python update.py --prepare
+          python -m unittest discover -s tests -v
+          npm test --prefix devvit
+      - name: Read metadata and regenerate CSV, README and HTML
+        env:
+          DEVVIT_AUTH_TOKEN: ${{ secrets.DEVVIT_AUTH_TOKEN }}
+        run: python update.py
+      - name: Save refresh report
+        uses: actions/upload-artifact@v7
+        with:
+          name: subreddit-update-report
+          path: .cache/update-report.json
+          include-hidden-files: true
+          retention-days: 30
+          if-no-files-found: error
+      - name: Commit updated directory
+        run: |
+          git add -- subreddits.csv README.md docs/index.html
+          if git diff --cached --quiet; then
+            echo 'No directory changes.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Update subreddit directory'
+          git push
